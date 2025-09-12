@@ -7,4 +7,4 @@ This repository is a week-by-week documentation of my Networking Internship jour
 The goal of this repository is to consolidate theoretical knowledge with practical exposure and serve as a reference for future learning in networking and related fields.
 
 Weekly Documentation  
-[Week 1]()
+[Week 1](https://github.com/shivam1741/networkig-internship/blob/main/Week%201.md)
