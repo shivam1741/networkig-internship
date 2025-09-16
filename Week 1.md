@@ -46,4 +46,5 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
      * Routable: Can be used across different networks.
   - How MAC and IP Addresses Work Together.
   - What is Packet and how it transmit (form source to destination).
-  - We got to learn what Address Resolution Protocol (ARP) is and when it comes into play.            
+  - We got to learn what Address Resolution Protocol (ARP) is and when it comes into play.
+  -           
