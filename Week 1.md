@@ -48,7 +48,46 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
   - What is Packet and how it transmit (form source to destination).
   - We got to learn what Address Resolution Protocol (ARP) is and when it comes into play.
     
+# NOTE  
+## IP Addressing – Full Summary
+✅ 1. What is an IP Address?
+- An IP address is like a digital address for a device.
+- It helps devices find and communicate with each other.
+
+✅ 2. Types of IP Addresses
+|Type      | Description|
+|--------  |-------------
+|Public ip |Given by ISP, used to connect to the internet|
+|Private ip|Used inside local networks (home, office)| 
 
 
+✅ 3. IP Classes and Ranges
+|class  | Range  | Private IP range | Use Case
 
+
+✅ 4. Why Divide IPs into Classes?
+- To match network sizes
+- To organize IP distribution
+- To simplify routing
+- To reserve private IPs for internal use
+
+✅ 5. What Happens When You Install Wi-Fi at Home?
+- Your ISP gives your router a public IP.
+- Your router gives private IPs to connected devices (like 192.168.0.2, 192.168.0.3, etc.).
+- Your home network is private, but it connects to the public internet through the router.
+
+✅ 6. Role of Towers and Routers
+- Towers and routers are given public IPs by the ISP.
+- They assign private IPs to devices connected to them.
+- They use DHCP to assign IPs and NAT to translate private IPs to public IPs for internet access.
+
+✅ 7. If We Didn’t Divide IPs
+- There would be conflicts, wasted IPs, and routing problems.
+- The internet would be hard to manage and less secure.
+
+
+✅ Final Summary:
+- ISPs assign public IPs to routers and towers.
+- Routers/towers assign private IPs to connected devices.
+- IPs are divided into classes to organize, scale, and secure the internet.
              
