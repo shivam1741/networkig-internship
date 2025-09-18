@@ -59,11 +59,17 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 |--------  |-------------
 |Public ip |Given by ISP, used to connect to the internet|
 |Private ip|Used inside local networks (home, office)| 
-
+---------------------------------------------------------
 
 ✅ 3. IP Classes and Ranges
-|class  | Range  | Private IP range | Use Case
-
+|Class  | Range  | Private IP range | Use Case |
+|-------|--------|------------------|----------|
+| A     |1.0.0.0 – 126.255.255.255|10.0.0.0 – 10.255.255.255|Large networks (e.g., multinational corporations)|
+| B     |128.0.0.0 – 191.255.255.255|172.16.0.0 – 172.31.255.255|Medium-sized networks (e.g., universities, large businesses)|
+| C     |192.0.0.0 – 223.255.255.255|192.168.0.0 – 192.168.255.255|Small networks (e.g., home, small office LANs|Multicasting (e.g., streaming media, routing protocols)|
+| D     |224.0.0.0 – 239.255.255.255|Not applicable|Multicasting (e.g., streaming media, routing protocols)|
+| E     |240.0.0.0 – 255.255.255.255|Not applicable|Experimental, research purposes only|
+---------------------------------------------------------------------------------------------------------
 
 ✅ 4. Why Divide IPs into Classes?
 - To match network sizes
