@@ -14,7 +14,7 @@ How OSI Modal is used when we access any web page.
 - Application Layer- Browser works here, It give you the interface to request a web page.
 - Presentation Layer- Here Data is encrypted so no one can read it, and compressed for faster tansfer.
 - Session Layer- It create secure session b/w user and server.
-- Transport Layer- Here we use UDP And TCP protocol.
-- Network Layer- The DNS--to IP and Find best way to transfer fast data.
-- Data link Layer- Here network card puts IP and mac 
-- Physical layer- data ready to transter via wifi and Ethernet.
+- Transport Layer- Here we use UDP And TCP protocol, but in this case TCP protocol is used ensuring that no data is lost while transferring.
+- Network Layer- The DNS will change into IP and Find best way to transfer data fast.
+- Data link Layer- Here network interface card (NIC) puts the IP and source's Mac and router's Mac to every frames
+- Physical layer- Data is sent as electrical signals(Ethernet cable) or radio waves(Wi-fi/Cellular networks(3G, 4G, 5G)).
