@@ -1,6 +1,6 @@
 # Day 1
 On the 1st day of the 2nd week I got to learn about OSI Modal and its layers with function of each.
-- To remember its layers into sequance we learnt a trick that is "All People Seem To Need Data Processing".
+- **To remember its layers into sequance we learnt a trick that is "All People Seem To Need Data Processing".**
     * All- Application Layer(7)
     * People- Presentation Layer(6)
     * Seem- Session Layer(5)
@@ -8,6 +8,20 @@ On the 1st day of the 2nd week I got to learn about OSI Modal and its layers wit
     * Need- Network Layer(3)
     * Data- Data Link Layer(2)
     * Processing- Physical Layer(1)
+ 
+-  **Sender to Receiver:**
+    * **Application Layer**
+
+      - It is the layer that is responsible for giving user friendlly interface for User interaction.
+      - It uses application level protocols such as
+
+            HTTP/HTTPS – for web browsing
+            FTP – for file transfers
+            SMTP/POP3/IMAP – for email
+            DNS – for domain name resolution
+            Telnet/SSH – for remote access
+         
+   
   
 ## Example Where OSI Modal is followed: 
 How OSI Modal is used when we access any web page.
