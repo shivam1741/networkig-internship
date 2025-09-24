@@ -4,7 +4,7 @@ On the 1st day of the 2nd week I got to learn about OSI Modal and its layers wit
     * All- Application Layer(7)
     * People- Presentation Layer(6)
     * Seem- Session Layer(5)
-    * To- Transport Layer(4)
+    * To- Transport layer(4)
     * Need- Network Layer(3)
     * Data- Data Link Layer(2)
     * Processing- Physical Layer(1)
@@ -15,12 +15,30 @@ On the 1st day of the 2nd week I got to learn about OSI Modal and its layers wit
       - It is the layer that is responsible for giving user friendlly interface for User interaction.
       - It uses application level protocols such as
 
-            HTTP/HTTPS – for web browsing
-            FTP – for file transfers
+             HTTP/HTTPS – for web browsing
+             FTP – for file transfers
             SMTP/POP3/IMAP – for email
             DNS – for domain name resolution
             Telnet/SSH – for remote access
+     * **Presentation Layer**
+
+       - The presentation layer is responsible for translating data formats, encrypting and decrypting data for security, and compressing data to reduce size during transmission.
          
+     * **Session Layer:**
+       - The session layer is responsible for establishing, managing, and terminating communication sessions between applications. It controls dialog between systems, ensuring data exchange is organized and synchronized.
+      
+    * **Transport Layer:**
+       - The transport layer is responsible for reliable data transfer between devices. It ensures error-free delivery, proper sequencing, and flow control, using protocols like TCP and UDP.
+
+    * **Network Layer:**
+      - The network layer is responsible for routing data between devices across different networks. It assigns logical addresses (like IP) and determines the best path for data delivery.
+
+    * **Data Link Layer:**
+       - The data link layer is responsible for reliable data transfer between two directly connected nodes. It handles error detection, correction, and framing of data for transmission over the physical layer.
+
+     * **Physical Layer:**
+       - The physical layer is responsible for transmitting raw bits over a physical medium such as cables or wireless signals. It defines hardware specifications, signal types, and data rates for communication.                 
+     
    
   
 ## Example Where OSI Modal is followed: 
