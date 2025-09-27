@@ -1,4 +1,4 @@
-# Day 1
+# Day 1 (OSI Model)
 On the 1st day of the 2nd week I got to learn about OSI Modal and its layers with function of each.
 - **To remember its layers into sequance we learnt a trick that is "All People Seem To Need Data Processing".**
     * All- Application Layer(7)
@@ -41,7 +41,7 @@ On the 1st day of the 2nd week I got to learn about OSI Modal and its layers wit
      
    
   
-## Example Where OSI Modal is followed: 
+## Example Where OSI Model is followed: 
 How OSI Modal is used when we access any web page.
 - Application Layer- Browser works here, It give you the interface to request a web page.
 - Presentation Layer- Here Data is encrypted so no one can read it, and compressed for faster tansfer.
@@ -50,3 +50,25 @@ How OSI Modal is used when we access any web page.
 - Network Layer- The DNS will change into IP and Find best way to transfer data fast.
 - Data link Layer- Here network interface card (NIC) puts the IP and source's Mac and router's Mac to every frames
 - Physical layer- Data is sent as electrical signals(Ethernet cable) or radio waves(Wi-fi/Cellular networks(3G, 4G, 5G)).
+
+
+### Reference [DAY 1](https://claude.ai/public/artifacts/e43d6790-fe29-45e8-887d-6f24978d1bc2?fullscreen=true)
+
+
+# Day 2 (TCP/IP Model)
+
+
+
+
+
+# Day 3 (Switches)
+
+- A network switch is a device that connects multiple devices (like computers, printers, servers) within a Local Area Network (LAN) and allows them to communicate with each other efficiently.
+- Think of it like a traffic controller at a busy intersection — it makes sure data goes to the right destination without crashing into other data.
+
+### Basic Concepts 
+
+- Devices (like PCs, printers) connect to the switch using Ethernet cables.
+- The switch uses MAC addresses (unique IDs for each device) to know where to send data.
+- It works at Layer 2 of the OSI model (Data Link Layer), but some advanced switches also work at Layer 3 (Network Layer).
+
