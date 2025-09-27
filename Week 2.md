@@ -72,3 +72,29 @@ How OSI Modal is used when we access any web page.
 - The switch uses MAC addresses (unique IDs for each device) to know where to send data.
 - It works at Layer 2 of the OSI model (Data Link Layer), but some advanced switches also work at Layer 3 (Network Layer).
 
+### What Is a Layer 2 Switch?
+A Layer 2 switch is a network device that operates at the Data Link Layer (Layer 2) of the OSI model. It uses MAC addresses to forward data between devices within the same local network (LAN).
+
+ **Basic Functions**
+
+- MAC Address Learning: It learns the MAC addresses of devices connected to each port.
+- Forwarding Frames: It forwards Ethernet frames only to the port where the destination device is connected.
+- Filtering Traffic: Prevents unnecessary traffic from reaching devices that don’t need it.
+- Collision Domain Isolation: Each port is its own collision domain, improving performance.
+
+## What Is a Layer 3 Switch?
+A Layer 3 switch is a network switch that can perform routing functions — just like a router — in addition to switching. It operates at Layer 3 (Network Layer) of the OSI model.
+So, while a Layer 2 switch forwards data based on MAC addresses, a Layer 3 switch forwards data based on IP addresses.
+
+### Layer 2 vs Layer 3 Switches
+
+|Feature  |Layer 2 Switch |Layer 3 Switch|
+|---------|---------------|--------------|
+|Works at |Data Link Layer|Network Layer|
+|Forwards data using|MAC Addresses|IP addresses|
+|Can route between VLANs|No|Yes|
+|Supports static/dynamic routing|No|Yes|
+|Ideal for|Simple LANs|Complex networks with multiple subnets and VLAN|
+|Inter-VLAN Routing|❌ Requires external router|✅ Built-in routing between VLANs|
+|Primary Function|Switching based on MAC addresses|Switching + Routing based on IP addresses|
+|Default Gateway Functionality|❌ No|✅ Can act as default gateway|
