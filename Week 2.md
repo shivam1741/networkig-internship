@@ -123,56 +123,38 @@ Example:
 
 
 *  **Borrowing Bits**    
-To create more subnets, you borrow bits from the host portion.
+To create more subnets, you borrow bits from the host portion.    
+
+
  |Bits Borrowed|New Subnet Mask|Subnets Created|Hosts per Subnet|
  |-------------|---------------|---------------|----------------|
  |0            |/24            |1              | 254            |
  |1            |/25            |2              | 126            |
  |2            |/26            |3              | 62             |
  |3            |/27            |4              | 30             |
- |4            |/28            |5              | 14             |   
-🔹 Binary Breakdown Example (/26)
-Original network: 192.168.1.0/24
-Borrow 2 bits → /26 → 4 subnets:
+ |4            |/28            |5              | 14             |  
+ 
+ 
+* **Binary Breakdown Example (/26)**    
+
+    * Original network: 192.168.1.0/24
+    * Borrow 2 bits from host → /26 → 4 subnets:   
+    
+    |Subnet|Binary Start of Last Octet|Decimal Range|
+    |------|--------------------------|-------------|
+    |1|00xxxxxx|192.168.1.0 - 192.168.1.63|
+    |2|01xxxxxx|192.168.1.64 - 192.168.1.127|
+    |3|10xxxxxx|192.168.1.128 - 192.168.1.191|
+    |4|11xxxxxx|192.168.1.192 - 192.168.1.255|
+
+  
+     * xx... represents host bits.
+     * The first two bits (00, 01, 10, 11) define the subnet.
 
 
+* **Key Takeaways**    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SubnetBinary Start of Last OctetDecimal Range100xxxxxx192.168.1.0 - 192.168.1.63201xxxxxx192.168.1.64 - 192.168.1.127310xxxxxx192.168.1.128 - 192.168.1.191411xxxxxx192.168.1.192 - 192.168.1.255
-
-xx... represents host bits.
-The first two bits (00, 01, 10, 11) define the subnet.
-
-
-🔹 Key Takeaways
-
-Without borrowing bits, you get 1 big subnet with many hosts.
-With borrowed bits, you get multiple smaller subnets with fewer hosts.
-IP addresses look the same in decimal, but their binary form reveals subnet boundaries.
-Subnetting is essential for efficient IP usage, network segmentation, and security.
+    * Without borrowing bits, you get 1 big subnet with many hosts.
+    * With borrowed bits, you get multiple smaller subnets with fewer hosts.
+    * IP addresses look the same in decimal, but their binary form reveals subnet boundaries.
+    * nSubnetting is essential for efficient IP usage, network segmentation, and security.
