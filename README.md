@@ -11,4 +11,4 @@ Weekly Documentation
 
 [Week 2](https://github.com/shivam1741/networkig-internship/blob/main/Week%202.md)
 
-[Week 3]()
+[Week 3](https://github.com/shivam1741/networkig-internship/blob/main/Week%203.md)
