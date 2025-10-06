@@ -56,13 +56,13 @@ How OSI Modal is used when we access any web page.
 
 
 # Day 2 (TCP/IP Model)  
-
+## TCP/IP Model
 
 The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to describe how data is transmitted over a network. It consists of 4 layers, each with specific responsibilities.
 
 
 
-## 1. Application Layer
+### 1. Application Layer
 - Purpose: Provides services directly to user applications.
 - Examples: `HTTP`, `FTP`, `SMTP`, `DNS`
 - Functions:
@@ -72,7 +72,7 @@ The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to des
 
 
 
-## 2. Transport Layer
+### 2. Transport Layer
 - Purpose: Ensures reliable data transfer between devices.
 - Protocols:
   - `TCP` (Transmission Control Protocol): Reliable, connection-oriented
@@ -84,7 +84,7 @@ The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to des
 
 
 
-## 3. Internet Layer
+### 3. Internet Layer
 - Purpose: Handles logical addressing and routing.
 - Main Protocol: `IP` (Internet Protocol)
 - Functions:
@@ -94,7 +94,7 @@ The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to des
 
 
 
-## 4. Network Access Layer (Link Layer)
+### 4. Network Access Layer (Link Layer)
 - Purpose: Deals with physical transmission of data.
 - Includes: `Ethernet`, `Wi-Fi`, `ARP`
 - Functions:
@@ -104,7 +104,7 @@ The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to des
 
 
 
-## Comparison with OSI Model
+### Comparison with OSI Model
 
 | **OSI Layer**         | **TCP/IP Layer**        |
 |-----------------------|-------------------------|
@@ -117,7 +117,7 @@ The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to des
 
 ---
 
-## Key Points
+### Key Points
 - TCP/IP is practical and widely used in real-world networking.
 - It’s the foundation of the Internet.
 - Each layer serves a specific role in data transmission.
