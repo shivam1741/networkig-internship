@@ -17,9 +17,9 @@ On the 1st day of the 2nd week I got to learn about OSI Modal and its layers wit
 
              HTTP/HTTPS – for web browsing
              FTP – for file transfers
-            SMTP/POP3/IMAP – for email
-            DNS – for domain name resolution
-            Telnet/SSH – for remote access
+             SMTP/POP3/IMAP – for email
+             DNS – for domain name resolution
+             Telnet/SSH – for remote access
      * **Presentation Layer**
 
        - The presentation layer is responsible for translating data formats, encrypting and decrypting data for security, and compressing data to reduce size during transmission.
@@ -62,6 +62,7 @@ How OSI Modal is used when we access any web page.
 
 
 # Day 3 (Switches)
+## Switches
 
 - A network switch is a device that connects multiple devices (like computers, printers, servers) within a Local Area Network (LAN) and allows them to communicate with each other efficiently.
 - Think of it like a traffic controller at a busy intersection — it makes sure data goes to the right destination without crashing into other data.
@@ -98,3 +99,80 @@ So, while a Layer 2 switch forwards data based on MAC addresses, a Layer 3 switc
 |Inter-VLAN Routing|❌ Requires external router|✅ Built-in routing between VLANs|
 |Primary Function|Switching based on MAC addresses|Switching + Routing based on IP addresses|
 |Default Gateway Functionality|❌ No|✅ Can act as default gateway|
+
+
+
+
+
+## Subnetting and Subnet Mask:  
+* **What is Subnetting?**     
+Subnetting is the process of dividing a larger IP network into smaller, more manageable subnetworks (subnets). It helps improve network performance, security, and IP address management.
+
+* **IP Address Structure**    
+An IP address has 32 bits, split into:
+      
+  * Network portion: Identifies the network.
+  * Host portion: Identifies devices within that network.
+
+* **Subnet Mask**  
+Defines how many bits are used for the network.  
+Example:    
+
+   * /24 → 24 bits for network, 8 bits for host
+   * /26 → 26 bits for network, 6 bits for host
+
+
+*  **Borrowing Bits**    
+To create more subnets, you borrow bits from the host portion.
+ |Bits Borrowed|New Subnet Mask|Subnets Created|Hosts per Subnet|
+ |-------------|---------------|---------------|----------------|
+ |0            |/24            |1              | 254            |
+ |1            |/25            |2              | 126            |
+ |2            |/26            |3              | 62             |
+ |3            |/27            |4              | 30             |
+ |4            |/28            |5              | 14             |   
+🔹 Binary Breakdown Example (/26)
+Original network: 192.168.1.0/24
+Borrow 2 bits → /26 → 4 subnets:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SubnetBinary Start of Last OctetDecimal Range100xxxxxx192.168.1.0 - 192.168.1.63201xxxxxx192.168.1.64 - 192.168.1.127310xxxxxx192.168.1.128 - 192.168.1.191411xxxxxx192.168.1.192 - 192.168.1.255
+
+xx... represents host bits.
+The first two bits (00, 01, 10, 11) define the subnet.
+
+
+🔹 Key Takeaways
+
+Without borrowing bits, you get 1 big subnet with many hosts.
+With borrowed bits, you get multiple smaller subnets with fewer hosts.
+IP addresses look the same in decimal, but their binary form reveals subnet boundaries.
+Subnetting is essential for efficient IP usage, network segmentation, and security.
