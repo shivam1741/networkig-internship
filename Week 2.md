@@ -55,8 +55,72 @@ How OSI Modal is used when we access any web page.
 ### Reference [DAY 1](https://claude.ai/public/artifacts/e43d6790-fe29-45e8-887d-6f24978d1bc2?fullscreen=true)
 
 
-# Day 2 (TCP/IP Model)
+# Day 2 (TCP/IP Model)  
 
+
+The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to describe how data is transmitted over a network. It consists of 4 layers, each with specific responsibilities.
+
+
+
+## 1. Application Layer
+- Purpose: Provides services directly to user applications.
+- Examples: `HTTP`, `FTP`, `SMTP`, `DNS`
+- Functions:
+  - Data formatting
+  - Encryption
+  - Session management
+
+
+
+## 2. Transport Layer
+- Purpose: Ensures reliable data transfer between devices.
+- Protocols:
+  - `TCP` (Transmission Control Protocol): Reliable, connection-oriented
+  - `UDP` (User Datagram Protocol): Fast, connectionless
+- Functions:
+  - Error detection and correction
+  - Flow control
+  - Segmentation and reassembly
+
+
+
+## 3. Internet Layer
+- Purpose: Handles logical addressing and routing.
+- Main Protocol: `IP` (Internet Protocol)
+- Functions:
+  - Routing packets across networks
+  - IP addressing
+  - Fragmentation and reassembly
+
+
+
+## 4. Network Access Layer (Link Layer)
+- Purpose: Deals with physical transmission of data.
+- Includes: `Ethernet`, `Wi-Fi`, `ARP`
+- Functions:
+  - Framing
+  - MAC addressing
+  - Physical transmission over cables or wireless
+
+
+
+## Comparison with OSI Model
+
+| **OSI Layer**         | **TCP/IP Layer**        |
+|-----------------------|-------------------------|
+| Application           | Application             |
+| Presentation          | Application             |
+| Session               | Application             |
+| Transport             | Transport               |
+| Network               | Internet                |
+| Data Link + Physical  | Network Access (Link)   |
+
+---
+
+## Key Points
+- TCP/IP is practical and widely used in real-world networking.
+- It’s the foundation of the Internet.
+- Each layer serves a specific role in data transmission.
 
 
 
@@ -158,3 +222,6 @@ To create more subnets, you borrow bits from the host portion.
     * With borrowed bits, you get multiple smaller subnets with fewer hosts.
     * IP addresses look the same in decimal, but their binary form reveals subnet boundaries.
     * nSubnetting is essential for efficient IP usage, network segmentation, and security.
+
+
+# Day 4 (VLAN)
