@@ -68,30 +68,30 @@ Routing enables devices on different networks to communicate with each other. Wi
 
 ### Key Concepts
 
-* 1. Router
-A **router** is a network device that forwards data packets between computer networks. It uses routing tables and protocols to determine the best path for data.
+* **Router:**
+ A router is a network device that forwards data packets between computer networks. It uses routing tables and protocols to determine the best path for data.
 
-* 2. **Routing Table**
-A **routing table** is a database in a router that stores paths to various network destinations. It includes:
-- Destination IP
-- Subnet mask
-- Next hop
-- Interface
-- Metric (cost)
+*  **Routing Table:**
+  A  routing table is a database in a router that stores paths to various network destinations. It includes:
+    - Destination IP
+    - Subnet mask
+    - Next hop
+    - Interface
+    - Metric (cost)
 
-* 3. **Next Hop**
-The **next hop** is the next router or device a packet should go to on its way to the destination.
+*  **Next Hop**
+  The next hop is the next router or device a packet should go to on its way to the destination.
 
 
 
 ### Types of Routing
 
-### Static Routing
+### 1. Static Routing
 - Manually configured by an administrator.
 - Simple and predictable.
 - Not scalable for large networks.
 
-### Dynamic Routing
+### 2. Dynamic Routing
 - Routers automatically learn and update routes using routing protocols.
 - More scalable and fault-tolerant.
 
@@ -99,7 +99,8 @@ The **next hop** is the next router or device a packet should go to on its way t
 
 ### Common Routing Protocols
 
-ProtocolTypeDescriptionRIPDistance VectorUses hop count as metric. Simple but slow.| **OSPF** | Link State     | Fast convergence, uses cost metric. |
+|Protocol|Type|Description|RIPDistance VectorUses hop count as metric. Simple but slow.| **OSPF** | Link State     | Fast convergence, uses cost metric. |
+|--------|----|-----------|
 | **EIGRP**| Hybrid         | Cisco proprietary, combines best of both. |
 | **BGP**  | Path Vector    | Used for routing between ISPs (Internet). |
 
