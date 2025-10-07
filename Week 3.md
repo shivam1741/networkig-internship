@@ -55,6 +55,7 @@ STP elects a **Root Bridge** and calculates the shortest path to it from all swi
 
 Imagine three switches connected in a triangle. Without STP, frames could loop endlessly. STP blocks one of the links, creating a loop-free tree structure.
 
+### References [ Day 1(Spanning Tree Protocol (STP))](https://claude.ai/public/artifacts/83161f5d-1c14-4ed0-8720-8f0c4d1c951b)
 
 # Day 2(Routing)
 
@@ -133,6 +134,6 @@ Routing enables devices on different networks to communicate with each other. Wi
 Imagine a company with two branches: one in Bangalore and one in Delhi. Each has its own local network. Routers at both locations use routing to allow employees to access resources across branches.
 
 
-### References
+### References [Day 2(Routing)](https://claude.ai/public/artifacts/1921e117-1ea7-41d9-aefb-c5beb03b1c6b)
 
 
