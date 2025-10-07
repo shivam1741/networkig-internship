@@ -35,9 +35,12 @@ STP elects a **Root Bridge** and calculates the shortest path to it from all swi
 
 ### Types of STP
 
-TypeDescriptionSTP (802.1D)Original standard, slower convergence.| **RSTP (802.1w)** | Rapid STP, faster convergence.         |
-| **MSTP (802.1s)** | Multiple STP instances over VLANs.     |
-| **PVST+**        | Cisco proprietary, per-VLAN STP.       |
+|Type|Description|
+|----|-----------|
+|STP (802.1D)|Original standard, slower convergence.|
+|RSTP (802.1w) | Rapid STP, faster convergence.|
+|MSTP (802.1s) | Multiple STP instances over VLANs.|
+|PVST+ | Cisco proprietary, per-VLAN STP.|
 
 
 ### Benefits of STP
@@ -99,11 +102,12 @@ Routing enables devices on different networks to communicate with each other. Wi
 
 ### Common Routing Protocols
 
-|Protocol|Type|Description|RIPDistance VectorUses hop count as metric. Simple but slow.| **OSPF** | Link State     | Fast convergence, uses cost metric. |
+|Protocol|Type|Description|
 |--------|----|-----------|
-| **EIGRP**| Hybrid         | Cisco proprietary, combines best of both. |
-| **BGP**  | Path Vector    | Used for routing between ISPs (Internet). |
-
+|RIP     |Distance Vector|Uses hop count as a metric. Simple but slow.|
+|OSPF|Link State|Fast convergence, uses cost as a metric.|
+|EIGRP|Hybrid|Cisco proprietary; combines distance vector & link state.|
+|BGP|Path Vector|Used for routing between ISPs across the Internet.|
 
 
 ### How Routing Works (Simplified)
@@ -124,18 +128,11 @@ Routing enables devices on different networks to communicate with each other. Wi
 
 ---
 
-## 🧪 Example Scenario
+### Example Scenario
 
 Imagine a company with two branches: one in Bangalore and one in Delhi. Each has its own local network. Routers at both locations use routing to allow employees to access resources across branches.
 
----
 
-## 📚 References
+### References
 
-- Cisco Networking Academy
-- Juniper Networks Documentation
-- RFCs for RIP, OSPF, BGP
 
----
-
-Feel free to contribute diagrams or examples to enhance this documentation!
