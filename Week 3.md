@@ -66,6 +66,15 @@ Imagine three switches connected in a triangle. Without STP, frames could loop e
 Routing is the process of selecting paths in a network along which to send data packets. It occurs at Layer 3 (Network Layer) of the OSI model and is essential for communication between different networks.
 
 
+### Real-World Example   
+Think of routing like using Google Maps to drive from your home to work:
+
+* Your car = Data packet
+* Roads = Network links
+* Intersections = Routers
+* GPS directions = Routing table
+* Alternative routes = Backup paths
+
 ### Why is Routing Important?
 
 Routing enables devices on different networks to communicate with each other. Without routing, data would be confined to a single local network.
