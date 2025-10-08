@@ -99,12 +99,12 @@ Routing enables devices on different networks to communicate with each other. Wi
 
 ### Types of Routing
 
-### 1. Static Routing
+### 1. ***Static Routing:*** Static routing means a network administrator manually types in the routes. The router doesn't learn routes automatically.
 - Manually configured by an administrator.
 - Simple and predictable.
 - Not scalable for large networks.
 
-### 2. Dynamic Routing
+### 2. ***Dynamic Routing:*** Dynamic routing means routers automatically share information with each other to learn the best paths. No manual configuration of individual routes needed!
 - Routers automatically learn and update routes using routing protocols.
 - More scalable and fault-tolerant.
 
@@ -114,7 +114,7 @@ Routing enables devices on different networks to communicate with each other. Wi
 
 |Protocol|Type|Description|
 |--------|----|-----------|
-|RIP     |Distance Vector|Uses hop count as a metric. Simple but slow.|
+|RIP     |Distance Vector (Makes decisions based on distance (hop count))|Uses hop count as a metric. Simple but slow.|
 |OSPF|Link State|Fast convergence, uses cost as a metric.|
 |EIGRP|Hybrid|Cisco proprietary; combines distance vector & link state.|
 |BGP|Path Vector|Used for routing between ISPs across the Internet.|
@@ -146,5 +146,7 @@ Imagine a company with two branches: one in Bangalore and one in Delhi. Each has
 
 
 ### Reference [Day 2(Routing)](https://claude.ai/public/artifacts/1921e117-1ea7-41d9-aefb-c5beb03b1c6b)
+
+# Day 4(Interdomain & Intradomain Routing (RIP))
 
 
