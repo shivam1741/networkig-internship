@@ -84,13 +84,13 @@ Routing enables devices on different networks to communicate with each other. Wi
 * **Router:**
  A router is a network device that forwards data packets between computer networks. It uses routing tables and protocols to determine the best path for data.
 
-*  **Routing Table:**
-  A  routing table is a database in a router that stores paths to various network destinations. It includes:
-    - Destination IP
-    - Subnet mask
-    - Next hop
-    - Interface
-    - Metric (cost)
+*  **Routing Table:** A  routing table is a database in a router that stores paths to various network destinations, Or a routing table is like a GPS database - it contains directions to reach different networks.      
+      * It includes:
+        - Destination IP
+        - Subnet mask
+        - Next hop
+        - Interface
+        - Metric (cost)
 
 *  **Next Hop**
   The next hop is the next router or device a packet should go to on its way to the destination.
