@@ -86,11 +86,11 @@ Routing enables devices on different networks to communicate with each other. Wi
 
 *  **Routing Table:** A  routing table is a database in a router that stores paths to various network destinations, Or a routing table is like a GPS database - it contains directions to reach different networks.      
       * It includes:
-        - Destination IP
-        - Subnet mask
-        - Next hop
-        - Interface
-        - Metric (cost)
+        - *Destination IP:* Where the data wants to go (e.g., 192.168.1.0).
+        - *Subnet mask:* It tells Which devices are in same network.
+        - *Next hop:* The next router to send data to (e.g., 10.0.0.1)
+        - *Interface:* Which port to send data out (e.g., Ethernet0)
+        - *Metric (cost):* How "far" or "expensive" the route is. 
 
 *  **Next Hop**
   The next hop is the next router or device a packet should go to on its way to the destination.
