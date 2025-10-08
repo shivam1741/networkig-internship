@@ -86,11 +86,11 @@ Routing enables devices on different networks to communicate with each other. Wi
 
 *  **Routing Table:** A  routing table is a database in a router that stores paths to various network destinations, Or a routing table is like a GPS database - it contains directions to reach different networks.      
       * It includes:
-        - *Destination IP:* Where the data wants to go (e.g., 192.168.1.0).
-        - *Subnet mask:* It tells Which devices are in same network.
-        - *Next hop:* The next router to send data to (e.g., 10.0.0.1)
-        - *Interface:* Which port to send data out (e.g., Ethernet0)
-        - *Metric (cost):* How "far" or "expensive" the route is. 
+        - ***Destination IP:*** Where the data wants to go (e.g., 192.168.1.0).
+        - ***Subnet mask:*** It tells Which devices are in same network.
+        - ***Next hop:*** The next router to send data to (e.g., 10.0.0.1)
+        - ***Interface:*** Which port to send data out (e.g., Ethernet0)
+        - ***Metric (cost):*** How "far" or "expensive" the route is. 
 
 *  **Next Hop**
   The next hop is the next router or device a packet should go to on its way to the destination.
@@ -121,11 +121,13 @@ Routing enables devices on different networks to communicate with each other. Wi
 
 
 ### How Routing Works (Simplified)
+* ***Packet Arrives:*** Router receives data to forward
+* ***Check Destination:*** Look at where data wants to go
+* ***Find Best Match:*** Search routing table for best route
+* ***Forward Packet:*** Send data to next hop router
+* ***Repeat:*** Next router does the same process
 
-1. A device sends a packet to an IP outside its local network.
-2. The router checks its routing table.
-3. It forwards the packet to the next hop.
-4. This continues until the packet reaches its destination.
+***Note(Important):** If no route exists in the table, the data gets dropped! This is why complete routing tables are crucial for network connectivity.*
 
 
 
