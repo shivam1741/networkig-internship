@@ -1,14 +1,44 @@
-# How to Divide Switches into Multiple VLANs or How to create VLANs
-* Understand your requirements like
-  
-   * How many VLANs do you need?
-   * Assign VLANs ID (e.g. VLAN 10 for HR, VLAN 20 for Finance).
-* Now we connect all the end devices to the switch ports.
-* We will divide all VLANs with thier ID and devices.
-* Now we will define VLANs on switch using CLI commands.
-
-      '''
-       
+# VLAN Configuration on Cisco Switch
+## Step 1
+This guide explains how to divide a switch into multiple VLANs using CLI commands.
 
 
-  
+
+## Step 1 (Enter Global Configuration Mode)
+
+
+* enable
+* configure terminal
+
+
+## Step 2(Create VLANs)
+1. * vlan 10
+   * name HR
+   * exit
+
+2. * vlan 20
+   * name Finance
+   * exit
+
+3. * vlan 30
+   * name Sales
+   * exit
+
+
+## Step 3(Assign Ports to VLANs)
+
+1. * interface FastEthernet0/1
+   * switchport mode access
+   *   switchport access vlan 10
+    * exit
+
+2.  * interface FastEthernet0/2
+    * switchport mode access
+    * switchport access vlan 20
+    * exit
+
+3.  * interface FastEthernet0/3
+    * switchport mode access
+    * switchport access vlan 30
+    * exit
+  ## ***Note:*** We use interface range FastEthernet 0/1-3
