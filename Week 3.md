@@ -148,5 +148,22 @@ Imagine a company with two branches: one in Bangalore and one in Delhi. Each has
 ### Reference [Day 2(Routing)](https://claude.ai/public/artifacts/1921e117-1ea7-41d9-aefb-c5beb03b1c6b)
 
 # Day 4(Interdomain & Intradomain Routing (RIP))
-
-
+### Intradomain & Interdomain Networking:
+* Intradomain & Interdomain Networking are the Types of Dynamic Routing.
+* ***Intradomain (IGP):***
+  Routing within a single organization or network Same administrative authority  
+  Examples: RIP, OSPF, EIGRP
+* ***Interdomain (EGP):***
+  Routing between different organizations Different administrative authorities  
+  Example: BGP
+* ***Note:*** Think of it like
+     * Intradomain = Roads within your city
+     * Interdomain = Highways between cities
+### Routing Information Protocol(RIP):
+One of the oldest intradomain routing protocols
+* ***Distance Vector Protocol:*** Makes decisions based on distance (hop count).
+* ***Metric:*** Uses hop count only (max 15 hops, 16 = unreachable)
+* ***Updates:*** Sends entire routing table every 30 seconds
+* ***Algorithm:*** Bellman-Ford algorithm
+* ***Simple Analogy:*** RIP is like asking for directions where people tell you "turn left, go 3 blocks" - it only cares about number of turns, not actual distance or traffic!
+       
