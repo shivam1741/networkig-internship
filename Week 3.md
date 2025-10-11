@@ -166,4 +166,35 @@ One of the oldest intradomain routing protocols
 * ***Updates:*** Sends entire routing table every 30 seconds
 * ***Algorithm:*** Bellman-Ford algorithm
 * ***Simple Analogy:*** RIP is like asking for directions where people tell you "turn left, go 3 blocks" - it only cares about number of turns, not actual distance or traffic!
-       
+  ### RIP Versions:
+  |Feature|RIPv1|RIPv2|
+  |-------|-----|-----|
+  |Classful/Classless|Classful|Classless|
+  |Subnet Mask|Not sent|Sent in updates|
+  |Updates|Broadcast|Multicast (224.0.0.9)|
+  |Authentication|No|Yes (MD5/Plain text)|
+  |VLSM Support|	No	|Yes|
+* Today, RIPv2 is the standard version used in networks.
+  ### How RIP Works:
+  ***1. Initial State:*** Router only knows directly connected networks.  
+  ***2. Share Information:*** Every 30 seconds, router broadcasts its routing table to neighbors.  
+  ***3. Receive Updates:*** Router receives tables from neighbors.  
+  ***4. Calculate Best Path:*** For each destination, choose path with lowest hop count.  
+  ***5. Update Table:*** Add new routes or update existing ones if better path found.  
+  ***6. Repeat:*** Process continues every 30 seconds.
+  ### RIP Timers:
+* ***Update Timer (30s):*** How often router sends its routing table to neighbors.
+* ***Invalid Timer (180s):*** If no update received for 180s, route marked as invalid (metric set to 16).
+*  ***Holddown Timer (180s):*** Time to wait before accepting new information about a failed route.
+*  ***Flush Timer (240s):*** After this time, route is completely removed from routing table.
+
+  ### Real World Use Case:
+* ***Scenario:*** A retail company with 10-15 branch offices, each with 3-4 routers
+
+* Why RIP?
+
+   * Network is small (under 15 hops)
+   * Simple to configure - minimal IT staff at branches
+   * Low cost - works on basic routers
+   * Easy troubleshooting for non-experts
+   * ***Example:*** Branch office has Sales VLAN, Admin VLAN, and Warehouse VLAN. Each VLAN on different router interface. RIP automatically shares these networks with all routers in the branch.
