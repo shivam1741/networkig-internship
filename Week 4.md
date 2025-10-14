@@ -73,4 +73,77 @@
 
 
 
+# Day 2(EIGRP)
+
+
+## Enhanced Interior Gateway Routing Protocol (EIGRP)
+
+### Overview
+
+**EIGRP** is a Cisco proprietary **advanced distance-vector routing protocol** that combines the best features of link-state and distance-vector protocols. It is designed for fast convergence, scalability, and efficient routing in large networks.
+
+- **Protocol Type**: Advanced Distance-Vector
+- **Vendor**: Cisco (now partially open via RFC 7868)
+- **Metric**: Composite metric (Bandwidth, Delay, Reliability, Load)
+
+
+### Key Features
+
+- **Fast Convergence**: Uses Diffusing Update Algorithm (DUAL)
+- **Loop-Free Routing**: Guaranteed via DUAL
+- **Partial Updates**: Only sends updates when topology changes
+- **Supports VLSM and CIDR**
+- **Multicast Communication**: Uses 224.0.0.10 for updates
+- **Unequal Cost Load Balancing**: Can use multiple paths with different metrics
+
+
+
+### How EIGRP Works
+
+1. **Neighbor Discovery**
+   - Routers send **Hello packets** to discover and maintain neighbors.
+
+2. **Topology Table**
+   - Maintains all learned routes, including successors and feasible successors.
+
+3. **DUAL Algorithm**
+   - Calculates loop-free paths and backup routes.
+
+4. **Routing Table**
+   - Only the best routes (successors) are installed in the routing table.
+
+
+### EIGRP Metric Formula
+
+EIGRP uses a **composite metric** based on:
+
+- **Bandwidth**
+- **Delay**
+- (Optionally) Reliability and Load
+
+**Default Metric Formula**:
+Metric = [K1 * Bandwidth + K3 * Delay] * 256
+
+
+Where:
+- K1 and K3 are default constants (usually 1)
+- Bandwidth is the minimum bandwidth of the path
+- Delay is the cumulative delay of the path
+
+
+
+### EIGRP Packet Types
+
+| Packet Type | Description                          |
+|-------------|--------------------------------------|
+| Hello       | Discover and maintain neighbors      |
+| Update      | Send routing updates                 |
+| Query       | Ask neighbors for route info         |
+| Reply       | Respond to queries                   |
+| ACK         | Acknowledge receipt of packets       |
+
+
+### EIGRP Authentication
+
+- Supports **MD5 authentication** for secure routing updates.
 
