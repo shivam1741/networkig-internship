@@ -1,9 +1,21 @@
 # Day 1
 On Day 1 of our Netwokring Internship, we brushed networking basics with the following topics:
 
-- ***Definition of Networking.***
+1. ***Definition of Networking:***
 Networking is nothing but the internet that we use in daily basis, how the devices communicate to each other using internet is a networking.
-- Components of networking
+2. ***Components of Networking:***
+To make the internet and computer networks work smoothly, we need multiple networking devices and components such as switches, routers, hubs, and bridges etc..
+   * We can these devices or components into 2 types.
+  
+      * ***END Devices:***   
+      
+         * End devices are the devices that start, receive, or end communication in a network.
+         * They are the source and destination of data transmission.
+     
+      * ***Intermediary Devices:***
+     
+      
+                            
 - Different types of Topologies : Star, Bus, Ring, Mesh.
 - Types of Network: PAN, LAN, MAN, WAN.
 - Learned the basic network flow.
