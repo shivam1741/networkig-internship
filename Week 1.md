@@ -1,7 +1,8 @@
 # Day 1
 On Day 1 of our Netwokring Internship, we brushed networking basics with the following topics:
 
-- Definition of Networking.
+- ***Definition of Networking.***
+Networking is nothing but the internet that we use in daily basis, how the devices communicate to each other using internet is a networking.
 - Components of networking
 - Different types of Topologies : Star, Bus, Ring, Mesh.
 - Types of Network: PAN, LAN, MAN, WAN.
