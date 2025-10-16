@@ -68,6 +68,8 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 - It helps devices find and communicate with each other.
 
 2. Types of IP Addresses
+
+
 |Type      | Description|
 |--------  |-------------
 |Public ip |Given by ISP, used to connect to the internet|
@@ -75,6 +77,8 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 ---------------------------------------------------------
 
  3. IP Classes and Ranges
+
+
 |Class  | Range  | Private IP range | Use Case |
 |-------|--------|------------------|----------|
 | A     |1.0.0.0 – 126.255.255.255|10.0.0.0 – 10.255.255.255|Large networks (e.g., multinational corporations)|
