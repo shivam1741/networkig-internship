@@ -38,66 +38,56 @@
      * Router differentiates connections by changing source port numbers.
      * Most common type — used in home routers.
 
-### 3. How NAT Works (General Idea)
+### 3. How NAT Works (General Idea)  
+* When a device (say, your laptop) sends a packet:  
+> Source: 192.168.1.10  
+> Destination: 142.250.195.78 (Google)
 
-When a device (say, your laptop) sends a packet:
-
-Source: 192.168.1.10
-Destination: 142.250.195.78 (Google)
-
-
-The NAT device (your router) changes the source IP before sending it to the internet:
-
-Source: 203.0.113.5 (public IP)
-Destination: 142.250.195.78
+* The NAT device (your router) changes the source IP before sending it to the internet:   
+> Source: 203.0.113.5 (public IP)   
+> Destination: 142.250.195.78
 
 
 When the reply comes back, NAT reverses the process using its internal translation table.
 
-⚡ 4. What Makes PAT Different
+### 4. What Makes PAT Different
 
-PAT does the same thing as NAT but adds one more twist — it also translates port numbers.
+* PAT does the same thing as NAT but adds one more twist — it also translates port numbers.   
 
-Why?
-Because if many devices inside the LAN share one public IP, the router must ensure every session remains unique.
-
-Example:
-
-Inside Host	Private IP	Source Port	Translated IP	Translated Port
-Laptop	192.168.1.10	50000	203.0.113.5	40001
-Mobile	192.168.1.11	50000	203.0.113.5	40002
+* ***Why?***
+     * Because if many devices inside the LAN share one public IP, the router must ensure every session remains unique.
+     * *Example:*
+ 
+     |Inside Host|Private IP|Source Port|Translated IP|Translated Port| 
+     |-----------|----------|-----------|-------------|---------------|
+     |Laptop|192.168.1.10   |50000      |203.0.113.5	|40001  |
+     |Mobile|192.168.1.11   |50000      |203.0.113.5 | 40002 |
 
 Even though both used the same port internally, PAT made them unique by changing their source ports.
 
-🧩 5. Why Does PAT Change Port Numbers?
+### 5. Why Does PAT Change Port Numbers?
 
-👉 Because multiple internal devices can use the same source port at the same time.
-If the router didn’t change them, it couldn’t tell which reply belongs to which device.
+* Because multiple internal devices can use the same source port at the same time.
+* If the router didn’t change them, it couldn’t tell which reply belongs to which device.
+* *PAT keeps a translation table like this:*
 
-PAT keeps a translation table like this:
-
-Inside Local	Inside Global	Destination	Destination Port
-192.168.1.10:50000	203.0.113.5:40001	142.250.195.78	443
-192.168.1.11:50000	203.0.113.5:40002	172.217.160.14	443
+|Inside Local|Inside Global|Destination|Destination Port|
+|------------|-------------|-----------|----------------|
+|192.168.1.10:50000|203.0.113.5:40001|142.250.195.78|443|
+|192.168.1.11:50000|203.0.113.5:40002|172.217.160.14|443|
 
 When a reply comes to 203.0.113.5:40001, the router knows it belongs to 192.168.1.10:50000.
 
-So basically:
+***So basically:***  
+> NAT changes IPs  
+> PAT changes IPs and ports to make every connection unique.
 
-NAT changes IPs.
-PAT changes IPs and ports to make every connection unique.
-
-🌐 6. Which Port PAT Changes?
-
-Only the source port — never the destination port.
-
-Why?
-
-Destination port tells what service you’re requesting (like web, mail, etc.).
-
-PAT doesn’t touch that because it would confuse the server.
-
-PAT only changes source port to track each connection separately.
+### 6. Which Port PAT Changes?
+* Only the source port — never the destination port.
+* ***Why?***
+   * Destination port tells what service you’re requesting (like web, mail, etc.).
+   * PAT doesn’t touch that because it would confuse the server.
+   * PAT only changes source port to track each connection separately.
 
 Example:
 Before NAT:
