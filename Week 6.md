@@ -88,16 +88,12 @@ When a reply comes to 203.0.113.5:40001, the router knows it belongs to 192.168.
    * Destination port tells what service you’re requesting (like web, mail, etc.).
    * PAT doesn’t touch that because it would confuse the server.
    * PAT only changes source port to track each connection separately.
-
-Example:
-Before NAT:
-
-Source: 192.168.1.10:50000 → Destination: google.com:443
-
-
-After PAT:
-
-Source: 203.0.113.5:40001 → Destination: google.com:443
+   * *Example:*
+      > Before PAT:
+      > Source: 192.168.1.10:50000 → Destination: google.com:443
+      
+      > After PAT:
+      > Source: 203.0.113.5:40001 → Destination: google.com:443
 
 
 Destination port (443) stays the same → the server still knows it’s a secure web request.
