@@ -56,8 +56,8 @@ When the reply comes back, NAT reverses the process using its internal translati
 
 * ***Why?***
      * Because if many devices inside the LAN share one public IP, the router must ensure every session remains unique.
-     * *Example:*
- 
+     * *Example:*   
+     
      |Inside Host|Private IP|Source Port|Translated IP|Translated Port| 
      |-----------|----------|-----------|-------------|---------------|
      |Laptop|192.168.1.10   |50000      |203.0.113.5	|40001  |
