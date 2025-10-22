@@ -106,7 +106,7 @@ When a reply comes to 203.0.113.5:40001, the router knows it belongs to 192.168.
 > 21 → FTP
 
 * These are called well-known ports (0–1023).
-When you type a URL like https://google.com, your computer automatically picks port 443.
+When you type a URL like "https://google.com", your computer automatically picks port 443.
 
 * So yes, you were absolutely right — ports tell your system and the server what kind of communication is happening.
 
