@@ -13,8 +13,8 @@ To make the internet and computer networks work smoothly, we need multiple netwo
          * They are the source and destination of data transmission.
      
       * ***Intermediary Devices:*** Intermediary devices are devices that connect end devices and ensure the smooth flow of data across the network.
-      * In the following we can clearly see that what are ***END Devices*** and ***Intermediary Devices***.
-      ![Devices]()
+      * In the following image we can clearly see that what are ***END Devices*** and ***Intermediary Devices***.
+      ![Devices](https://github.com/shivam1741/networkig-internship/blob/Assets/NodeDevices.png)
      
       
                             
