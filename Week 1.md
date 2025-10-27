@@ -34,6 +34,7 @@ On Day 2 of our Networking Internship, We learnt more about LAN, MAN and WAN.
 * Small area, like home, school, or office.
 * Fast connection.
 * *Example:* Computers in your classroom connected to the same router.
+* ![LAN](https://github.com/shivam1741/networkig-internship/blob/main/LAN-Diagram.jpg)
   
 ## Network Planning Exercise  
 ### Scenario: 
