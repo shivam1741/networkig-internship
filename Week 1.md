@@ -27,13 +27,10 @@ To make the internet and computer networks work smoothly, we need multiple netwo
            * ***PAN(Personal Area Network):*** Small network around one person, like Bluetooth devices.
            * ***LAN(Local Area Network):*** Network in a small area like home, office, or school.
            * ***MAN(Metropolitan Area Network):*** Network covering a whole city.
-           * ***WAN(Wide Area Network):*** Network covering large areas, like countries or the internet.
-- Learned the basic network flow.
-- Discussed on common Network challenges: Unauthorized access, Data breach, Viruses.
-- Additionally, we went through some performance issues in network: Network Congestion, Conneciton Reliability and Bandwidth limitations.  
-[DAY 1](https://claude.ai/public/artifacts/e92959cb-3269-4546-b97d-e5dcd0aee458)
+           * ***WAN(Wide Area Network):*** Network covering large areas, like countries or the internet.  
 # Day 2
-On Day 2 of our Networking Internship, We learnt more about LAN, MAN and WAN.  
+On Day 2 of our Networking Internship, We learnt more about LAN, MAN and WAN.
+### LAN 
 ## Network Planning Exercise  
 ### Scenario: 
 You are IT consultant for "EduTech Solutions" - an educational software company.
@@ -123,4 +120,12 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 - ISPs assign public IPs to routers and towers.
 - Routers/towers assign private IPs to connected devices.
 - IPs are divided into classes to organize, scale, and secure the internet.
+
+
+
+
+# References
+* [DAY 1.](https://claude.ai/public/artifacts/e92959cb-3269-4546-b97d-e5dcd0aee458)
+* [DAY 2.](https://claude.ai/public/artifacts/f4b54e55-0e65-4185-8eb1-4ecbebbdf880)
+* [Day 3.](https://claude.ai/public/artifacts/9933647d-a377-4e9e-9b69-e1e4030a2a55)
              
