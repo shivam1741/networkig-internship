@@ -15,11 +15,11 @@ On the 1st day of the 2nd week I got to learn about OSI Modal and its layers wit
       - It is the layer that is responsible for giving user friendlly interface for User interaction.
       - It uses application level protocols such as
 
-             HTTP/HTTPS – for web browsing
-             FTP – for file transfers
-             SMTP/POP3/IMAP – for email
-             DNS – for domain name resolution
-             Telnet/SSH – for remote access
+       > HTTP/HTTPS – for web browsing    
+       > FTP – for file transfers    
+       > SMTP/POP3/IMAP – for email   
+       > DNS – for domain name resolution   
+       > Telnet/SSH – for remote access
      * **Presentation Layer**
 
        - The presentation layer is responsible for translating data formats, encrypting and decrypting data for security, and compressing data to reduce size during transmission.
