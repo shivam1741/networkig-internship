@@ -16,7 +16,13 @@ To make the internet and computer networks work smoothly, we need multiple netwo
      
       
                             
-- Different types of Topologies : Star, Bus, Ring, Mesh.
+3. ***Topologies:*** Topology is the arrangement or layout of different devices (like computers, routers, switches) in a network and how they are connected to each other.  
+    * ***Types of Different topologies:***   
+         * ***Bus topology:*** All devices are connected to a single cable.
+         * ***Star Topology:*** All devices connect to a central device (like a switch or hub).
+         * ***Ring Topology:*** Devices are connected in a closed loop.
+         * ***Mesh Topology:*** Devices are interconnected, so there are multiple paths between devices.
+5.  Star, Bus, Ring, Mesh.
 - Types of Network: PAN, LAN, MAN, WAN.
 - Learned the basic network flow.
 - Discussed on common Network challenges: Unauthorized access, Data breach, Viruses.
