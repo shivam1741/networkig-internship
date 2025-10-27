@@ -30,7 +30,11 @@ To make the internet and computer networks work smoothly, we need multiple netwo
            * ***WAN(Wide Area Network):*** Network covering large areas, like countries or the internet.  
 # Day 2
 On Day 2 of our Networking Internship, We learnt more about LAN, MAN and WAN.
-### LAN 
+### LAN(Local Area Network):
+* Small area, like home, school, or office.
+* Fast connection.
+* *Example:* Computers in your classroom connected to the same router.
+  
 ## Network Planning Exercise  
 ### Scenario: 
 You are IT consultant for "EduTech Solutions" - an educational software company.
