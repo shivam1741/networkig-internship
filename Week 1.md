@@ -22,8 +22,12 @@ To make the internet and computer networks work smoothly, we need multiple netwo
          * ***Star Topology:*** All devices connect to a central device (like a switch or hub).
          * ***Ring Topology:*** Devices are connected in a closed loop.
          * ***Mesh Topology:*** Devices are interconnected, so there are multiple paths between devices.
-5.  Star, Bus, Ring, Mesh.
-- Types of Network: PAN, LAN, MAN, WAN.
+  4. ***Network:*** A network is when two or more devices (like computers, phones, printers) are connected together so they can share data, files, or resources.
+      * ***Types of Network:***   
+           * ***PAN(Personal Area Network):*** Small network around one person, like Bluetooth devices.
+           * ***LAN(Local Area Network):*** Network in a small area like home, office, or school.
+           * ***MAN(Metropolitan Area Network):*** Network covering a whole city.
+           * ***WAN(Wide Area Network):*** Network covering large areas, like countries or the internet.
 - Learned the basic network flow.
 - Discussed on common Network challenges: Unauthorized access, Data breach, Viruses.
 - Additionally, we went through some performance issues in network: Network Congestion, Conneciton Reliability and Bandwidth limitations.  
