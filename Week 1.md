@@ -21,9 +21,13 @@ To make the internet and computer networks work smoothly, we need multiple netwo
 3. ***Topologies:*** Topology is the arrangement or layout of different devices (like computers, routers, switches) in a network and how they are connected to each other.  
     * ***Types of Different topologies:***   
          * ***Bus topology:*** All devices are connected to a single cable.
+         ![Bus Topology](https://github.com/shivam1741/networkig-internship/blob/Assets/A-bus-network-topology.png)
          * ***Star Topology:*** All devices connect to a central device (like a switch or hub).
+         ![Star topology](https://github.com/shivam1741/networkig-internship/blob/Assets/The-star-network-topology.png)
          * ***Ring Topology:*** Devices are connected in a closed loop.
+         ![Ring Topology](https://github.com/shivam1741/networkig-internship/blob/Assets/The-ring-network-topology.png)
          * ***Mesh Topology:*** Devices are interconnected, so there are multiple paths between devices.
+         ![Mesh Topology](https://github.com/shivam1741/networkig-internship/blob/Assets/The-mesh-network-topology-the-full-mesh-and-partial-mesh.png)
   4. ***Network:*** A network is when two or more devices (like computers, phones, printers) are connected together so they can share data, files, or resources.
       * ***Types of Network:***   
            * ***PAN(Personal Area Network):*** Small network around one person, like Bluetooth devices.
