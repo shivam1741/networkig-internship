@@ -12,7 +12,7 @@ To make the internet and computer networks work smoothly, we need multiple netwo
          * End devices are the devices that start, receive, or end communication in a network.
          * They are the source and destination of data transmission.
      
-      * ***Intermediary Devices:***
+      * ***Intermediary Devices:*** Intermediary devices are devices that connect end devices and ensure the smooth flow of data across the network.
      
       
                             
