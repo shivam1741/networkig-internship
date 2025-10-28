@@ -80,17 +80,22 @@ You are IT consultant for "EduTech Solutions" - an educational software company.
 > Development center: 50 employees, 5 km away.   
 > Regional sales offices: 3 locations across the state.  
 > Remote workers: 25 employees working from home.
-### Your Task: Design a network architecture plan identifying:
-- What type of network for main office? (LAN/MAN/WAN)
-- How to connect development center? (LAN/MAN/WAN)
-- How to connect regional offices? (LAN/MAN/WAN)
-- How to support remote workers? (LAN/MAN/WAN)
-  
-[DAY 2](https://claude.ai/public/artifacts/f4b54e55-0e65-4185-8eb1-4ecbebbdf880)  
+### Tasks: Design a network architecture plan identifying:
+- What type of network for main office? (LAN/MAN/WAN) --> ***LAN***
+-  How to connect development center? (LAN/MAN/WAN) --> ***LAN***
+- How to connect regional offices? (LAN/MAN/WAN) --> ***WAN***
+- How to support remote workers? (LAN/MAN/WAN) --> ***WAN***
+
 
 # Day 3  
 On Day 3 we learnt following things about Media Access Control (MAC) and Internet Protocol (IP) addresses.  
-- Definition of Network Addresses. 
+### IP(Internet Protocol):
+* An IP address (Internet Protocol address) is a unique number given to every device connected to a network so that it can send and receive data.
+* It’s just like a home address, but for devices on the internet or a local network — it helps identify where data should go and where it came from.
+* ***Main Purpose:***
+> *Identification* – tells who the device is.   
+> *Location* – tells where the device is in the network.   
+> *Communication* – helps devices talk to each other.
 - How IP and MAC addresses are different to each other.
 - Key Characteristics of Physical address(MAC)
      * Physical Address: Burned into network interface card (NIC).
@@ -108,8 +113,8 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
   - What is Packet and how it transmit (form source to destination).
   - We got to learn what Address Resolution Protocol (ARP) is and when it comes into play.
     
-# NOTE  
-## IP Addressing – Full Summary
+## NOTE  
+### IP Addressing(Public and Private IPs)
 1. What is an IP Address?
 - An IP address is like a digital address for a device.
 - It helps devices find and communicate with each other.
@@ -121,7 +126,7 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 |--------  |-------------
 |Public ip |Given by ISP, used to connect to the internet|
 |Private ip|Used inside local networks (home, office)| 
----------------------------------------------------------
+
 
  3. IP Classes and Ranges
 
@@ -133,8 +138,10 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 | C     |192.0.0.0 – 223.255.255.255|192.168.0.0 – 192.168.255.255|Small networks (e.g., home, small office LANs|Multicasting (e.g., streaming media, routing protocols)|
 | D     |224.0.0.0 – 239.255.255.255|Not applicable|Multicasting (e.g., streaming media, routing protocols)|
 | E     |240.0.0.0 – 255.255.255.255|Not applicable|Experimental, research purposes only|
----------------------------------------------------------------------------------------------------------
 
+> The class of IP is chosen based on how many devices or users need to be connected — not the type of device like router or tower.
+
+ 
  4. Why Divide IPs into Classes?
 - To match network sizes
 - To organize IP distribution
