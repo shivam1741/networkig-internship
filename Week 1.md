@@ -5,7 +5,7 @@ On Day 1 of our Netwokring Internship, we brushed networking basics with the fol
 Networking is nothing but the internet that we use in daily basis, how the devices communicate to each other using internet is a networking.
 2. ***Components of Networking:***
 To make the internet and computer networks work smoothly, we need multiple networking devices and components such as switches, routers, hubs, and bridges etc..
-   * We can these devices or components into 2 types.
+   * We can divide these devices or components into 2 types.
   
       * ***END Devices:***   
       
