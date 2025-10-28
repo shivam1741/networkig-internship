@@ -45,12 +45,22 @@ To make the internet and computer networks work smoothly, we need multiple netwo
 # Day 2
 On Day 2 of our Networking Internship, We learnt more about LAN, MAN and WAN.
 ### LAN(Local Area Network):
-* Small area, like home, school, or office.
-* Fast connection.
-* *Example:* Computers in your classroom connected to the same router.   
-
+* A network within a small area like a home, office, or school.
+* Covers a few hundred meters or one building.
+* Very high speed (up to 1 Gbps or more).
+* Used to share files, printers, or internet between nearby computers.
+* *Example:* Computers connected in your college lab. 
 
 ![LAN Diagram](https://github.com/shivam1741/networkig-internship/blob/Assets/LAN-Diagram.jpg)
+
+### PAN(Personal Area Network): 
+* A small network created around one person.
+* Covers a range of about 10 meters.
+* Used to connect personal devices like a phone, laptop, smartwatch, or Bluetooth headset.
+* Doesn’t require heavy equipment — can be wireless or wired (like USB).
+* *Example:* Your mobile connected to your earbuds or smartwatch.
+
+![PAN]() 
   
 ## Network Planning Exercise  
 ### Scenario: 
