@@ -13,7 +13,7 @@
          
   So, ACL is that list of rules used by routers or firewalls to decide what traffic can pass.
 
-  ![ACL]()
+  ![ACL](https://github.com/shivam1741/networkig-internship/blob/Assets/ACL.jpg)
 
 
 ### What ACL Can Filter:
