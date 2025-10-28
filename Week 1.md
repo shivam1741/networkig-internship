@@ -89,13 +89,30 @@ You are IT consultant for "EduTech Solutions" - an educational software company.
 
 # Day 3  
 On Day 3 we learnt following things about Media Access Control (MAC) and Internet Protocol (IP) addresses.  
-### IP(Internet Protocol):
+### IP(Internet Protocol) Address:
 * An IP address (Internet Protocol address) is a unique number given to every device connected to a network so that it can send and receive data.
 * It’s just like a home address, but for devices on the internet or a local network — it helps identify where data should go and where it came from.
 * ***Main Purpose:***
 > *Identification* – tells who the device is.   
 > *Location* – tells where the device is in the network.   
 > *Communication* – helps devices talk to each other.
+
+### Types of IP Addresses:
+* IPv4 (Internet Protocol version 4):
+> 32-bit address (written like 192.168.1.1).   
+> Has about 4.3 billion possible addresses.  
+> *Example:* 172.16.0.1   
+> Used widely even today.
+
+* IPv6 (Internet Protocol version 6):
+> 128-bit address (written with hexadecimal numbers).  
+> Much larger address space (can handle billions of devices).  
+> *Example:* 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+### MAC (Media Access Control) Address:
+* MAC Address is a unique physical address given to every network device (like your laptop, router, or phone’s network card).
+* It is burned into the hardware (Network Interface Card) by the manufacturer — that’s why it’s also called a hardware address or physical address.
+* It is permanent and unique for each one.
 - How IP and MAC addresses are different to each other.
 - Key Characteristics of Physical address(MAC)
      * Physical Address: Burned into network interface card (NIC).
