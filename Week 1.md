@@ -113,24 +113,12 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 * MAC Address is a unique physical address given to every network device (like your laptop, router, or phone’s network card).
 * It is burned into the hardware (Network Interface Card) by the manufacturer — that’s why it’s also called a hardware address or physical address.
 * It is permanent and unique for each one.
-- How IP and MAC addresses are different to each other.
-- Key Characteristics of Physical address(MAC)
-     * Physical Address: Burned into network interface card (NIC).
-     * Unique Worldwide: No two devices have the same MAC address.
-     * 48-bit Address: 6 groups of 2 hexadecimal digits.
-     * Layer 2(Data link): Works at Data Link Layer.
-     * Non-routable: Only works within local network segment.
- - Key Characteristics of IP address
-     * Logical Address: Assigned by network configuration.
-     * Hierarchical: Network portion + Host portion.
-     * 32-bit Address (IPv4): 4 groups of decimal numbers (0-255).
-     * Layer 3(Network): Works at Network Layer.
-     * Routable: Can be used across different networks.
-  - How MAC and IP Addresses Work Together.
-  - What is Packet and how it transmit (form source to destination).
-  - We got to learn what Address Resolution Protocol (ARP) is and when it comes into play.
-    
-## NOTE  
+* *Length:* 48 bits (6 bytes)
+* *Written In:* Hexadecimal format
+* *Example:* 00:1A:2B:3C:4D:5E
+     
+
+  - We got to learn what Address Resolution Protocol (ARP) is and when it comes into play. 
 ### IP Addressing(Public and Private IPs)
 1. What is an IP Address?
 - An IP address is like a digital address for a device.
