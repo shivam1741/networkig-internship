@@ -89,7 +89,7 @@ You are IT consultant for "EduTech Solutions" - an educational software company.
 
 # Day 3  
 On Day 3 we learnt following things about Media Access Control (MAC) and Internet Protocol (IP) addresses.  
-### IP(Internet Protocol) Address:
+## IP(Internet Protocol) Address:
 * An IP address (Internet Protocol address) is a unique number given to every device connected to a network so that it can send and receive data.
 * It’s just like a home address, but for devices on the internet or a local network — it helps identify where data should go and where it came from.
 * ***Main Purpose:***
@@ -97,7 +97,7 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 > *Location* – tells where the device is in the network.   
 > *Communication* – helps devices talk to each other.
 
-### Types of IP Addresses:
+### ***Types of IP Addresses:***
 * IPv4 (Internet Protocol version 4):
 > 32-bit address (written like 192.168.1.1).   
 > Has about 4.3 billion possible addresses.  
@@ -109,7 +109,7 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 > Much larger address space (can handle billions of devices).  
 > *Example:* 2001:0db8:85a3:0000:0000:8a2e:0370:7334
 
-### MAC (Media Access Control) Address:
+## MAC (Media Access Control) Address:
 * MAC Address is a unique physical address given to every network device (like your laptop, router, or phone’s network card).
 * It is burned into the hardware (Network Interface Card) by the manufacturer — that’s why it’s also called a hardware address or physical address.
 * It is permanent and unique for each one.
@@ -117,7 +117,7 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 * *Written In:* Hexadecimal format
 * *Example:* 00:1A:2B:3C:4D:5E
 
-### How MAC and IP are different to each others:
+## How MAC and IP are different to each others:
 | **Feature** | **MAC Address** | **IP Address** |
 |-------------|----------------|----------------|
 | **Layer**     | Works at Data Link Layer (Layer 2)| Works at Network Layer (Layer 3) |
@@ -129,7 +129,10 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 | **Used For**  | Communication within a local network (LAN)| Communication across networks (WAN, Internet) |
 | **Visibility** | Seen only inside the local network| Seen across the Internet |
 
-
+### ARP (Address Resolution Protocol):
+* ARP (Address Resolution Protocol) is a protocol used to find the MAC address of a device when we already know its IP address.
+* It helps devices in the same local network talk to each other.
+  
      
 
 ### IP Addressing(Public and Private IPs)
