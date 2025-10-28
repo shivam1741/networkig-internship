@@ -60,17 +60,26 @@ On Day 2 of our Networking Internship, We learnt more about LAN, MAN and WAN.
 * Doesn’t require heavy equipment — can be wireless or wired (like USB).
 * *Example:* Your mobile connected to your earbuds or smartwatch.
 
-![PAN]() 
+![PAN](https://github.com/shivam1741/networkig-internship/blob/Assets/PAN.png)
+
+### WAN(Wide Area Network):
+* A network that connects devices or LANs over large geographical areas.
+* Covers states, countries, or even the whole world.
+* Uses public or private transmission lines (like satellites, fiber optics).
+* Lower speed compared to LAN but covers long distances.
+* *Example:* The Internet is the biggest WAN.
+
+ ![WAN](https://github.com/shivam1741/networkig-internship/blob/Assets/WAN.jpg)
   
 ## Network Planning Exercise  
 ### Scenario: 
 You are IT consultant for "EduTech Solutions" - an educational software company.
 
 ### Company Details:
-- Main office: 100 employees in downtown building
-- Development center: 50 employees, 5 km away
-- Regional sales offices: 3 locations across the state
-- Remote workers: 25 employees working from home
+> Main office: 100 employees in downtown building.   
+> Development center: 50 employees, 5 km away.   
+> Regional sales offices: 3 locations across the state.  
+> Remote workers: 25 employees working from home.
 ### Your Task: Design a network architecture plan identifying:
 - What type of network for main office? (LAN/MAN/WAN)
 - How to connect development center? (LAN/MAN/WAN)
