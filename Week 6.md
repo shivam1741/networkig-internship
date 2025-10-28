@@ -19,3 +19,11 @@
 * Destination IP address (where data is going)
 * Protocol (like TCP, UDP, ICMP)
 * Port number (like HTTP = 80, HTTPS = 443)
+
+### Why We Need ACL
+|Reason|Explanation|
+|------|-----------|
+|Security|Blocks unwanted or harmful traffic (like hackers).|
+|Traffic Control|Limits what kind of data can pass (e.g., only allow web browsing, block FTP).|
+|Network Performance|Reduces unnecessary traffic to improve speed.|
+|Monitoring|Helps track or log who’s accessing the network.|
