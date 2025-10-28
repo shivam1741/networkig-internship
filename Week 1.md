@@ -116,9 +116,22 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 * *Length:* 48 bits (6 bytes)
 * *Written In:* Hexadecimal format
 * *Example:* 00:1A:2B:3C:4D:5E
+
+### How MAC and IP are different to each others:
+| **Feature** | **MAC Address** | **IP Address** |
+|-------------|----------------|----------------|
+| **Layer**     | Works at Data Link Layer (Layer 2)| Works at Network Layer (Layer 3) |
+| **Purpose**   | Identifies a specific device on a network | Identifies a device’s location in a network |
+| **Type of Address**| Physical address (burned into hardware)| Logical address (assigned by network or manually) |
+| **Uniqueness** | Unique worldwide for every device| Can change depending on the network |
+| **Format**     | 48-bit (e.g., 00:1A:2B:3C:4D:5E)| 32-bit (IPv4, e.g., 192.168.1.5) or 128-bit (IPv6) |
+| **Changeability**| Permanent (but can be spoofed)| Dynamic (changes when connected to different networks) |
+| **Used For**  | Communication within a local network (LAN)| Communication across networks (WAN, Internet) |
+| **Visibility** | Seen only inside the local network| Seen across the Internet |
+
+
      
 
-  - We got to learn what Address Resolution Protocol (ARP) is and when it comes into play. 
 ### IP Addressing(Public and Private IPs)
 1. What is an IP Address?
 - An IP address is like a digital address for a device.
