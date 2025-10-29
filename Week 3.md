@@ -199,6 +199,6 @@ One of the oldest intradomain routing protocols
    * ***Example:*** Branch office has Sales VLAN, Admin VLAN, and Warehouse VLAN. Each VLAN on different router interface. RIP automatically shares these networks with all routers in the branch.
  
   ## Reference:
-  * Reference [ Day 1(Spanning Tree Protocol (STP))](https://claude.ai/public/artifacts/83161f5d-1c14-4ed0-8720-8f0c4d1c951b)
-  * Reference [Day 2(Routing)](https://claude.ai/public/artifacts/1921e117-1ea7-41d9-aefb-c5beb03b1c6b)
+  * [ Day 1(Spanning Tree Protocol (STP))](https://claude.ai/public/artifacts/83161f5d-1c14-4ed0-8720-8f0c4d1c951b)
+  * [Day 2(Routing)](https://claude.ai/public/artifacts/1921e117-1ea7-41d9-aefb-c5beb03b1c6b)
   * [Day 3(Interdomain & Intradomain Routing (RIP))](https://claude.ai/public/artifacts/a28f54e1-e72b-4bdd-af38-6201ec24618a)
