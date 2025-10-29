@@ -55,7 +55,6 @@ STP elects a **Root Bridge** and calculates the shortest path to it from all swi
 
 Imagine three switches connected in a triangle. Without STP, frames could loop endlessly. STP blocks one of the links, creating a loop-free tree structure.
 
-### Reference [ Day 1(Spanning Tree Protocol (STP))](https://claude.ai/public/artifacts/83161f5d-1c14-4ed0-8720-8f0c4d1c951b)
 
 # Day 2 (Routing)
 
@@ -105,7 +104,8 @@ Routing enables devices on different networks to communicate with each other. Wi
 - Simple and predictable.
 - Not scalable for large networks.
 
-### 2. ***Dynamic Routing:*** Dynamic routing means routers automatically share information with each other to learn the best paths. No manual configuration of individual routes needed!
+### 2. ***Dynamic Routing:*** 
+- Dynamic routing means routers automatically share information with each other to learn the best paths. No manual configuration of individual routes needed!
 - Routers automatically learn and update routes using routing protocols.
 - More scalable and fault-tolerant.
 
@@ -145,8 +145,6 @@ Routing enables devices on different networks to communicate with each other. Wi
 
 Imagine a company with two branches: one in Bangalore and one in Delhi. Each has its own local network. Routers at both locations use routing to allow employees to access resources across branches.
 
-
-### Reference [Day 2(Routing)](https://claude.ai/public/artifacts/1921e117-1ea7-41d9-aefb-c5beb03b1c6b)
 
 # Day 3(Interdomain & Intradomain Routing (RIP))
 ### Intradomain & Interdomain Networking:
@@ -200,4 +198,7 @@ One of the oldest intradomain routing protocols
    * Easy troubleshooting for non-experts
    * ***Example:*** Branch office has Sales VLAN, Admin VLAN, and Warehouse VLAN. Each VLAN on different router interface. RIP automatically shares these networks with all routers in the branch.
  
-  ### Reference [Day 3(Interdomain & Intradomain Routing (RIP))](https://claude.ai/public/artifacts/a28f54e1-e72b-4bdd-af38-6201ec24618a)
+  ## Reference:
+  * Reference [ Day 1(Spanning Tree Protocol (STP))](https://claude.ai/public/artifacts/83161f5d-1c14-4ed0-8720-8f0c4d1c951b)
+  * Reference [Day 2(Routing)](https://claude.ai/public/artifacts/1921e117-1ea7-41d9-aefb-c5beb03b1c6b)
+  * [Day 3(Interdomain & Intradomain Routing (RIP))](https://claude.ai/public/artifacts/a28f54e1-e72b-4bdd-af38-6201ec24618a)
