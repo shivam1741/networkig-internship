@@ -99,7 +99,8 @@ Routing enables devices on different networks to communicate with each other. Wi
 
 ### Types of Routing
 
-### 1. ***Static Routing:*** Static routing means a network administrator manually types in the routes. The router doesn't learn routes automatically.
+### 1. ***Static Routing:*** 
+- Static routing means a network administrator manually types in the routes. The router doesn't learn routes automatically.
 - Manually configured by an administrator.
 - Simple and predictable.
 - Not scalable for large networks.
