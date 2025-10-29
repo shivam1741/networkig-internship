@@ -132,6 +132,8 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 ### ARP (Address Resolution Protocol):
 * ARP (Address Resolution Protocol) is a protocol used to find the MAC address of a device when we already know its IP address.
 * It helps devices in the same local network talk to each other.
+
+  
   
      
 
