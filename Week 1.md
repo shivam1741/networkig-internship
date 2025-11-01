@@ -164,7 +164,7 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
   
      
 
-### IP Addressing(Public and Private IPs)
+### IP Addressing(Public and Private IPs):
 1. What is an IP Address?
 - An IP address is like a digital address for a device.
 - It helps devices find and communicate with each other.
