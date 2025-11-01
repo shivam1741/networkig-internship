@@ -121,8 +121,6 @@ The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to des
 - It’s the foundation of the Internet.
 - Each layer serves a specific role in data transmission.
 
-### Reference [Day 2 (TCP/IP Model)](https://claude.ai/public/artifacts/a1c59732-03c8-4268-bf63-c8a6b20e8c3c?fullscreen=true)
-
 # Day 3 (Switches)
 ## Switches
 
@@ -267,3 +265,5 @@ Even though all computers are plugged into the same switch, VLANs virtually sepa
 
 ## Reference 
 * [DAY 1 (OSI Model)](https://claude.ai/public/artifacts/e43d6790-fe29-45e8-887d-6f24978d1bc2?fullscreen=true)
+* [Day 2 (TCP/IP Model)](https://claude.ai/public/artifacts/a1c59732-03c8-4268-bf63-c8a6b20e8c3c?fullscreen=true)
+
