@@ -43,16 +43,15 @@ On the 1st day of the 2nd week I got to learn about OSI Modal and its layers wit
   
 ## Example Where OSI Model is followed: 
 How OSI Modal is used when we access any web page.
-- Application Layer- Browser works here, It give you the interface to request a web page.
-- Presentation Layer- Here Data is encrypted so no one can read it, and compressed for faster tansfer.
-- Session Layer- It create secure session b/w user and server.
-- Transport Layer- Here we use UDP And TCP protocol, but in this case TCP protocol is used ensuring that no data is lost while transferring.
-- Network Layer- The DNS will change into IP and Find best way to transfer data fast.
-- Data link Layer- Here network interface card (NIC) puts the IP and source's Mac and router's Mac to every frames
-- Physical layer- Data is sent as electrical signals(Ethernet cable) or radio waves(Wi-fi/Cellular networks(3G, 4G, 5G)).
+- ***Application Layer-*** Browser works here, It give you the interface to request a web page.
+- ***Presentation Layer-*** Here Data is encrypted so no one can read it, and compressed for faster tansfer.
+- ***Session Layer-*** It create secure session b/w user and server.
+- ***Transport Layer-*** Here we use UDP And TCP protocol, but in this case TCP protocol is used ensuring that no data is lost while transferring.
+- ***Network Layer-*** The DNS will change into IP and Find best way to transfer data fast.
+- ***Data link Layer-*** Here network interface card (NIC) puts the IP and source's Mac and router's Mac to every frames
+- ***Physical layer-*** Data is sent as electrical signals(Ethernet cable) or radio waves(Wi-fi/Cellular networks(3G, 4G, 5G)).
 
 
-### Reference [DAY 1 (OSI Model)](https://claude.ai/public/artifacts/e43d6790-fe29-45e8-887d-6f24978d1bc2?fullscreen=true)
 
 
 # Day 2 (TCP/IP Model)  
@@ -265,3 +264,6 @@ Even though all computers are plugged into the same switch, VLANs virtually sepa
 - Reduced Broadcasts: Less noise, better performance.
 - Better Management: Easier to monitor and troubleshoot.
 - Flexibility: Group devices logically, not just physically.
+
+## Reference 
+* [DAY 1 (OSI Model)](https://claude.ai/public/artifacts/e43d6790-fe29-45e8-887d-6f24978d1bc2?fullscreen=true)
