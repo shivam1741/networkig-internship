@@ -13,4 +13,4 @@ Weekly Documentation
 * [Week 4](https://github.com/shivam1741/networkig-internship/edit/main/Week%204.md)
 * [Week 5](https://github.com/shivam1741/networkig-internship/blob/main/Week%205.md)
 * [Week 6](https://github.com/shivam1741/networkig-internship/blob/main/Week%206.md)
-* [Week 7 (Network Troubleshooting Tools)](https://github.com/shivam1741/networkig-internship/blob/main/Week%207%20(Network%20Troubleshooting%20Tools).md)
+* [Week 7](https://github.com/shivam1741/networkig-internship/blob/main/Week%207.md)
