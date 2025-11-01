@@ -133,10 +133,12 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
 * ARP (Address Resolution Protocol) is a protocol used to find the MAC address of a device when we already know its IP address.
 * It helps devices in the same local network talk to each other.
 * To understand it well let's take an ***Example:***   
+    Suppose there are two PCs in the same LAN:
+    
+    > PC1 → IP = 192.168.1.10, MAC = AA:AA:AA:AA:AA:AA   
+    > PC2 → IP = 192.168.1.20, MAC = BB:BB:BB:BB:BB:BB
 
-   Suppose there are two PCs in the same LAN:
-          > PC1 → IP = 192.168.1.10, MAC = AA:AA:AA:AA:AA:AA   
-          > PC2 → IP = 192.168.1.20, MAC = BB:BB:BB:BB:BB:BB   
+   
  
     Now PC1 wants to send data to PC2.   
     * **Step 1:PC1 checks ARP table**   
@@ -156,7 +158,8 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
      
   #### When ARP doesn’t work
    * ARP works only within the same LAN (Layer 2).
-   *  If the destination is in another network, the sender sends the packet to the default gateway’s MAC, not the final device’s MAC. **(That’s where routers come into play.)**    
+   *  If the destination is in another network, the sender sends the packet to the default gateway’s MAC, not the final device’s MAC.   
+   **(That’s where routers come into play.)**    
   
   
      
