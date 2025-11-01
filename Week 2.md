@@ -63,6 +63,9 @@ How OSI Modal is used when we access any web page.
 
 The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to describe how data is transmitted over a network. It consists of 4 layers, each with specific responsibilities.
 
+  In the following image we will understand how TCP/IP actually works
+![TCP/IP](https://github.com/shivam1741/networkig-internship/blob/Assets/https___dev-to-uploads.s3.amazonaws.com_uploads_articles_602dnkhd6i3rpnk51j0r.webp)
+
 
 
 ### 1. Application Layer
@@ -109,7 +112,7 @@ The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to des
 
 ### Comparison with OSI Model
 
-![TCP/IP Modal]()
+![TCP/IP Model](https://github.com/shivam1741/networkig-internship/blob/Assets/OSI-to-TCPIP-Model.png)
 
 ### Key Points
 - TCP/IP is practical and widely used in real-world networking.
@@ -133,10 +136,10 @@ A Layer 2 switch is a network device that operates at the Data Link Layer (Layer
 
  **Basic Functions**
 
-- MAC Address Learning: It learns the MAC addresses of devices connected to each port.
-- Forwarding Frames: It forwards Ethernet frames only to the port where the destination device is connected.
-- Filtering Traffic: Prevents unnecessary traffic from reaching devices that don’t need it.
-- Collision Domain Isolation: Each port is its own collision domain, improving performance.
+- ***MAC Address Learning:*** It learns the MAC addresses of devices connected to each port.
+- ***Forwarding Frames:*** It forwards Ethernet frames only to the port where the destination device is connected.
+- ***Filtering Traffic:*** Prevents unnecessary traffic from reaching devices that don’t need it.
+- ***Collision Domain Isolation:*** Each port is its own collision domain, improving performance.
 
 ## What Is a Layer 3 Switch?
 A Layer 3 switch is a network switch that can perform routing functions — just like a router — in addition to switching. It operates at Layer 3 (Network Layer) of the OSI model.
