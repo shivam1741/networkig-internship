@@ -145,7 +145,7 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
     PC1 checks its ARP cache/table to see if it already knows PC2’s MAC address.
     * **Step 2: If not found → send ARP Request**   
     It broadcasts a message to everyone.
-         > Who has IP 192.168.1.20? Tell 192.168.1.10.
+         > Who has IP 192.168.1.20? Tell 192.168.1.10.   
          > This goes to all devices in that LAN (broadcast)
      * **Step 3: PC2 replies with ARP Reply**   
      PC2 sees it’s being asked and sends a unicast reply.
