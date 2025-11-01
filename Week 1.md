@@ -153,9 +153,10 @@ On Day 3 we learnt following things about Media Access Control (MAC) and Interne
          > 192.168.1.20 → BB:BB:BB:BB:BB:BB.
      * **Step 5: Communication starts**   
      Now PC1 can send frames directly to PC2’s MAC.
-### When ARP doesn’t work
-* ARP works only within the same LAN (Layer 2).
-* If the destination is in another network, the sender sends the packet to the default gateway’s MAC, not the final device’s MAC. **(That’s where routers come into play.)**    
+     
+  #### When ARP doesn’t work
+   * ARP works only within the same LAN (Layer 2).
+   *  If the destination is in another network, the sender sends the packet to the default gateway’s MAC, not the final device’s MAC. **(That’s where routers come into play.)**    
   
   
      
