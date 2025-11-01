@@ -109,16 +109,7 @@ The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to des
 
 ### Comparison with OSI Model
 
-| **OSI Layer**         | **TCP/IP Layer**        |
-|-----------------------|-------------------------|
-| Application           | Application             |
-| Presentation          | Application             |
-| Session               | Application             |
-| Transport             | Transport               |
-| Network               | Internet                |
-| Data Link + Physical  | Network Access (Link)   |
-
----
+![TCP/IP Modal]()
 
 ### Key Points
 - TCP/IP is practical and widely used in real-world networking.
