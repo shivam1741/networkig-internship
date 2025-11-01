@@ -14,7 +14,7 @@ On the 1st day of the 2nd week I got to learn about OSI Modal and its layers wit
 
       - It is the layer that is responsible for giving user friendlly interface for User interaction.
       - It uses application level protocols such as
-
+      
        > HTTP/HTTPS – for web browsing    
        > FTP – for file transfers    
        > SMTP/POP3/IMAP – for email   
