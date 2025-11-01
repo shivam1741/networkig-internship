@@ -1,5 +1,7 @@
 # Day 1 (OSI Model)
-On the 1st day of the 2nd week I got to learn about OSI Modal and its layers with function of each.
+
+## OSI Model:
+On the 1st day of the 2nd week I got to learn about **OSI Modal** and its layers with function of each.
 - **To remember its layers into sequance we learnt a trick that is "All People Seem To Need Data Processing".**
     * All- Application Layer(7)
     * People- Presentation Layer(6)
@@ -8,8 +10,10 @@ On the 1st day of the 2nd week I got to learn about OSI Modal and its layers wit
     * Need- Network Layer(3)
     * Data- Data Link Layer(2)
     * Processing- Physical Layer(1)
- 
--  **Sender to Receiver:**
+ - In the following image we will understand it well.
+  ![OSI Model](https://github.com/shivam1741/networkig-internship/blob/Assets/OSI%20modal.png)
+
+ - Let's study actual functions of every layers:
     * **Application Layer**
 
       - It is the layer that is responsible for giving user friendlly interface for User interaction.
@@ -41,7 +45,7 @@ On the 1st day of the 2nd week I got to learn about OSI Modal and its layers wit
      
    
   
-## Example Where OSI Model is followed: 
+### Example Where OSI Model is followed: 
 How OSI Modal is used when we access any web page.
 - ***Application Layer-*** Browser works here, It give you the interface to request a web page.
 - ***Presentation Layer-*** Here Data is encrypted so no one can read it, and compressed for faster tansfer.
