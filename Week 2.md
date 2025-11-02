@@ -63,7 +63,7 @@ How OSI Modal is used when we access any web page.
 
 The TCP/IP model (Internet Protocol Suite) is a conceptual framework used to describe how data is transmitted over a network. It consists of 4 layers, each with specific responsibilities.
 
-  In the following image we will understand how TCP/IP actually works
+  In the following image we will get some idea how TCP/IP actually works
 ![TCP/IP](https://github.com/shivam1741/networkig-internship/blob/Assets/https___dev-to-uploads.s3.amazonaws.com_uploads_articles_602dnkhd6i3rpnk51j0r.webp)
 
 
