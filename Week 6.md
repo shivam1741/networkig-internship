@@ -1,5 +1,6 @@
 # Day 1(ACL) 
-## ACL (Access Control List):
+## ACL (Access Control List)
+
 * ACL (Access Control List) is like a security guard in networking.
 * It controls which packets (data) are allowed in or out of a network or device (like a router).
 * In simple words:
@@ -47,3 +48,36 @@
 * Switches → to manage traffic between VLANs.
 
 
+# Day 2(Firewall)
+
+## Firewall
+A Firewall is a security device/software that monitors, filters, and controls incoming and outgoing network traffic based on security rules.   
+> Think of it like a security guard standing at the network gate.
+
+### Why Do We Need a Firewall?
+A firewall protects your network from:
+> Hackers    
+> Unauthorized access    
+> Malware    
+> Suspicious traffic    
+> Unwanted websites   
+> External attacks
+
+
+It ensures that only safe traffic enters your network.
+
+### How Firewall Works
+Every packet of data entering or leaving your network goes through the firewall.   
+The firewall checks:
+> Source IP    
+> Destination IP    
+> Port number    
+> Protocol   
+> Traffic type 
+
+
+Then it decides:   
+> ALLOW    
+> BLOCK     
+> LOG    
+> INSPECT
