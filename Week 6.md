@@ -125,7 +125,7 @@ Most modern firewalls are NGFW with features:
 SSL Inspection means the firewall decrypts encrypted traffic, checks it for threats, and then re-encrypts it before sending it to the destination.
 
 
-## How firewall is different from ACL
+## How Firewall is different from ACL
 
 ***ACL***
 
