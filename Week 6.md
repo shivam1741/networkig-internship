@@ -80,4 +80,35 @@ Then it decides:
 > ALLOW    
 > BLOCK     
 > LOG    
-> INSPECT
+> INSPECT  
+
+### Types of Firewall
+
+* ***Packet Filtering Firewall***
+   * Oldest type
+   * Checks only headers (IP, port)
+   * Fast but not very secure  
+
+* ***Stateful Inspection Firewall***
+   * Tracks active connections
+   * More secure than packet filter
+
+* ***Proxy Firewall (Application Layer Firewall)***
+   * Works at Layer 7
+   * Filters HTTP, DNS, FTP, etc.
+   * Very secure but slower
+
+* ***NGFW – Next Generation Firewall***   
+Most modern firewalls are NGFW with features:
+   * Deep Packet Inspection
+   * IPS/IDS
+   * URL filtering
+   * Application Control
+   * Malware detection
+   * SSL inspection
+
+* ***Software Firewall***
+   * Installed on PC (Windows Firewall)
+
+* ***Hardware Firewall***
+   * Dedicated appliance (Palo Alto / FortiGate / Cisco ASA)
