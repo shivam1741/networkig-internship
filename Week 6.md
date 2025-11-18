@@ -52,6 +52,8 @@
 
 ## Firewall
 A Firewall is a security device/software that monitors, filters, and controls incoming and outgoing network traffic based on security rules.   
+Or   
+A firewall is a security gatekeeper that allows safe traffic and blocks harmful traffic based on pre-defined security rules.
 > Think of it like a security guard standing at the network gate.
 
 ### Why Do We Need a Firewall?
@@ -112,3 +114,12 @@ Most modern firewalls are NGFW with features:
 
 * ***Hardware Firewall***
    * Dedicated appliance (Palo Alto / FortiGate / Cisco ASA)
+ 
+
+### Firewall Limitations
+* Cannot detect all attacks (IPS required)
+* Cannot stop insider threats
+* Cannot block encrypted threats unless SSL inspection is ON
+* Needs proper configuration     
+* ***What Is SSL Inspection?***   
+SSL Inspection means the firewall decrypts encrypted traffic, checks it for threats, and then re-encrypts it before sending it to the destination.
