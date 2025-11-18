@@ -123,3 +123,25 @@ Most modern firewalls are NGFW with features:
 * Needs proper configuration     
 * ***What Is SSL Inspection?***   
 SSL Inspection means the firewall decrypts encrypted traffic, checks it for threats, and then re-encrypts it before sending it to the destination.
+
+
+## How firewall is different from ACL
+
+***ACL***
+
+* Basic filtering (IP + Port only)
+* Can only allow or deny
+* No deep inspection, no security
+* Works on Layer 3 & 4
+* ACL can be added inside routers and switches
+
+***Firewall***
+
+* Advanced security system
+* Scans traffic, apps, malware, threats
+* Can decrypt HTTPS
+* Works up to Layer 7
+* Firewall requires a separate dedicated device/tool
+* In short
+> ACL = Basic IP/Port filter inside router/switch    
+> Firewall = Separate security device for full protection
