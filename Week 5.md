@@ -6,9 +6,68 @@
 * It’s a service that automatically gives IP addresses and network settings (like gateway, DNS, etc.) to computers, phones, routers — basically any device joining a network.
 * Without DHCP, you’d have to manually set an IP for every device. Imagine doing that for 100 PCs — painful, right? DHCP saves you from that.
 
- ### What DHCP actually does
+ ### What DHCP actually does?
+ When a device (phone, laptop, PC, router interface) connects to a network, DHCP automatically provides:
+ * **IP Address**  
+ > Example → 192.168.1.10
+ * **Subnet Mask**   
+ > Example → 255.255.255.0
+* **Default Gateway**   
+> Example → 192.168.1.1
+* **DNS Server**   
+> Example → 8.8.8.8
+(Used to translate website names to IPs)
+* **Lease Time**   
+> How long the IP is valid.
 
- 
+## DHCP Components   
+DHCP works using four main components. Each one has a specific role in giving IP addresses to devices automatically.
+1. ***DHCP Server:***   
+  The DHCP server is responsible for:
+    * Storing a pool of IP addresses
+    * Assigning IPs to clients
+    * Providing subnet mask, gateway, DNS
+    * Tracking which device has which IP
+    * Managing lease time.   
+2. ***DHCP Client:***   
+   It requests an IP from the DHCP server.   
+   Examples:
+    * Laptops
+    * Mobile phones
+    * PCs
+    * Printers
+ 3. ***DHCP IP Address Pool (Scope):***   
+    This is the range of IP addresses that the DHCP server can assign.   
+    A DHCP pool includes:
+     * Start IP
+     * End IP
+     * Subnet mask
+     * Gateway
+     * DNS server
+  4. ***DHCP Lease Time:***   
+     Lease Time means how long a client can use the IP address given by DHCP before it must renew it.
+
+
+ ## DHCP Process(DORA)   
+ DHCP uses a four-step process called DORA to assign IP addresses.
+
+  1. ***Discover (Client → Broadcast):***   
+     The client has no IP address, so it sends a DHCP Discover message to the entire network.
+         
+     > **It’s basically asking:** “Is there any DHCP server who can give me an IP?”
+  2. ***Offer (Server → Client):***   
+     A DHCP server replies with a DHCP Offer message.
+     This offer includes:
+     * An available IP address
+     * Subnet mask
+     * Default gateway
+     * DNS server
+     * Lease time   
+     > **Server says:** “I can give you this IP. Do you want it?”
+   3. ***Request (Client → Server):***   
+      The client chooses one offer (if multiple servers exist) and sends a DHCP Request.
+      > **Client says:** “Yes, I want the IP you offered. Please assign it to me permanently.”
+   
 
 # Day 2(NAT and PAT)
 
