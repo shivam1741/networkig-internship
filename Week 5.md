@@ -193,7 +193,7 @@ When a reply comes to 203.0.113.5:40001, the router knows it belongs to 192.168.
 > 21 → FTP
 
 * These are called well-known ports (0–1023).
-When you type a URL like "https://google.com", your computer automatically picks port 443.
+When you type a URL like " https://google.com ", your computer automatically picks port 443.
 
 * So yes, you were absolutely right — ports tell your system and the server what kind of communication is happening.
 
@@ -212,13 +212,15 @@ Linux/macOS → 32768–60999 (can vary)
     * Assigns it to your new connection.
     * Uses it until the connection closes.
     * Frees it for reuse later.
-    * So if you open 5 browser tabs:
-    > Tab	Source Port	Destination Port   
-    > Tab 1	51001	443   
-    > Tab 2	51002	443   
-    > Tab 3	51003	443   
-    > Tab 4	51004	443   
-    > Tab 5	51005	443
+    * So if you open 5 browser tabs:   
+    
+    |Tab |	Source Port|	Destination Port|  
+    |----|-------------|----------------|
+    |Tab 1	|	51001 |443  | 
+    |Tab 2 | 51002 |443|   
+    |Tab 3 |	51003 | 443|   
+    |Tab 4	|51004|	443 |  
+    | Tab 5	|51005	|443|
 
 Each tab uses a different source port → no confusion in replies.
 
