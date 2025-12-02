@@ -71,8 +71,6 @@
 - **Plain Text Authentication**: Simple password.
 - **MD5 Authentication**: Secure hash-based authentication.
 
-### Reference [Day 1(OSPF)](https://claude.ai/public/artifacts/fbf70cac-6f1a-41cf-adcc-6336e3136ab5?fullscreen=true)
-
 
 # Day 2(EIGRP)
 
@@ -148,5 +146,8 @@ Where:
 
 - Supports **MD5 authentication** for secure routing updates.
 
-### Reference [Day 2(EIGRP)](https://claude.ai/public/artifacts/c030298c-25c3-490e-a1ff-eb03eda1f418?fullscreen=true)
+### Reference 
+* [Day 1(OSPF)](https://claude.ai/public/artifacts/fbf70cac-6f1a-41cf-adcc-6336e3136ab5?fullscreen=true)
+* [Day 2(EIGRP)](https://claude.ai/public/artifacts/c030298c-25c3-490e-a1ff-eb03eda1f418?fullscreen=true)
+  
 
