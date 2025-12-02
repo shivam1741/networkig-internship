@@ -56,7 +56,7 @@ DHCP works using four main components. Each one has a specific role in giving IP
          
      > **It’s basically asking:** “Is there any DHCP server who can give me an IP?”
   2. ***Offer (Server → Client):***   
-     A DHCP server replies with a DHCP Offer message.
+      A DHCP server replies with a DHCP Offer message.
      This offer includes:
      * An available IP address
      * Subnet mask
@@ -67,6 +67,17 @@ DHCP works using four main components. Each one has a specific role in giving IP
    3. ***Request (Client → Server):***   
       The client chooses one offer (if multiple servers exist) and sends a DHCP Request.
       > **Client says:** “Yes, I want the IP you offered. Please assign it to me permanently.”
+   4. ***Acknowledge (Server → Client):***   
+      The server sends a DHCP Acknowledgement (ACK).
+      Client now officially has:
+      * IP address
+      * Subnet mask
+      * Gateway
+      * DNS
+      * Lease details   
+      > **Server says:** “Your IP is confirmed. You can use it now.”
+  ### DHCP DORA Diagram   
+  [Dora]!()
    
 
 # Day 2(NAT and PAT)
