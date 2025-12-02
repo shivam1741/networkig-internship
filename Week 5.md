@@ -77,7 +77,18 @@ DHCP works using four main components. Each one has a specific role in giving IP
       * Lease details   
       > **Server says:** “Your IP is confirmed. You can use it now.”
   ### DHCP DORA Diagram   
-  [Dora]!()
+  ![Dora](https://github.com/shivam1741/networkig-internship/blob/Assets/Dora.png)
+
+  ## Difference Between DHCP and Static IP
+  | Feature                | DHCP                                                     | Static IP                                                               |
+| ---------------------- | -------------------------------------------------------- | ---------------------------- |
+| **IP Assignment**      | IP address is assigned automatically by the DHCP server. | IP address is manually set on the device.                               |
+| **Configuration Time** | Very quick, no manual setup needed.                      | Takes time because each device must be configured individually.         |
+| **Flexibility**        | Devices can join/leave the network easily.               | Not flexible; changes require manual updates.                           |
+| **Best Use Case**      | Home networks, offices, networks with many devices.      | Servers, printers, CCTV, and devices that must always keep the same IP. |
+| **Risk of Errors**     | Lower chance of mistakes since it’s automatic.           | Higher chance of human error while entering IP details.                 |
+| **IP Consistency**     | IP may change after lease expiry.                        | IP remains fixed unless changed manually.                               |
+
    
 
 # Day 2(NAT and PAT)
