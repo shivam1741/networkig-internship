@@ -1,4 +1,4 @@
-# Day 1(ACL) 
+# Day 1 (ACL) 
 ## ACL (Access Control List)
 
 * ACL (Access Control List) is like a security guard in networking.
