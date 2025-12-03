@@ -48,7 +48,7 @@
 * Switches → to manage traffic between VLANs.
 
 
-# Day 2(Firewall)
+# Day 2 (Firewall)
 
 ## Firewall
 A Firewall is a security device/software that monitors, filters, and controls incoming and outgoing network traffic based on security rules.   
