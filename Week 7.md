@@ -11,12 +11,18 @@
 ## HSRP (Hot Standby Router Protocol)
 * HSRP is a Cisco protocol that keeps your network gateway always available.
 * If one router goes down, another router immediately takes over — users don’t feel anything.
-* ***Basic Points:***
-    * Developed by Cisco (works only on Cisco routers)
-    * Creates one virtual gateway IP
-    * One router is Active → handles traffic
-    * Another router is Standby → takes over when Active fails
-    * Election based on priority
-    * Hello timer: 3 sec
-    * Hold timer: 10 sec
-    * Traffic always goes through the Active router (no load balancing)
+### Basic Points:
+   * Developed by Cisco (works only on Cisco routers)
+   * Creates one virtual gateway IP
+   * One router is Active → handles traffic
+   * Another router is Standby → takes over when Active fails
+   * Election based on priority
+   * Hello timer: 3 sec
+   * Hold timer: 10 sec
+   * Traffic always goes through the Active router (no load balancing)
+### How HSRP works
+   * You configure a group of routers with the same HSRP group number
+   * You assign a virtual IP (gateway for clients)
+   * Routers decide who becomes Active (highest priority)
+   * Standby router keeps listening
+   * If Active router fails → Standby becomes Active instantly
