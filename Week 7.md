@@ -70,3 +70,20 @@
  * Other routers become AVFs (forward actual traffic)
  * Clients are balanced across all routers
  * If one AVF fails → AVG assigns its load to remaining AVFs
+
+## Router Redundancy Comparison (HSRP vs VRRP vs GLBP)
+
+| Feature | HSRP | VRRP | GLBP |
+|--------|------|------|------|
+| Type | Cisco proprietary | Open standard | Cisco proprietary |
+| Mode | Active–Standby | Master–Backup | **Multiple Active** |
+| Load Balancing |  No |  No |  Yes |
+| Preemption | Off by default | On by default | On by default |
+| Virtual IP | Yes | Yes | Yes |
+| Virtual MAC | Cisco MAC | Standard MAC | Cisco MAC |
+| Best Use | Basic redundancy | Multi-vendor | Redundancy + Load Balancing |
+
+**HSRP →** Only one active router.  
+**VRRP →** Same idea as HSRP but open standard.  
+**GLBP →** All routers share traffic (load balancing).
+
