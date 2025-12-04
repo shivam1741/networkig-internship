@@ -45,3 +45,22 @@
  * All clients use one virtual IP
  * If Master fails → Backup instantly becomes Master
  * No load balancing by default
+
+## GLBP (Gateway Load Balancing Protocol)
+ * GLBP is a Cisco protocol that gives you redundancy + load balancing together.
+ * Unlike HSRP/VRRP, all routers can forward traffic at the same time.
+
+### Basic Points
+ * Cisco proprietary
+ * Supports load balancing (unique feature)
+ * One router becomes AVG (controller)
+ * Other routers become AVFs (forwarders)
+ * Each AVF gets a different virtual MAC address
+ * Clients get distributed across routers automatically
+
+### How GLBP works
+ * You create a GLBP group and assign a virtual IP
+ * One router becomes AVG (assigns MACs to others)
+ * Other routers become AVFs (forward actual traffic)
+ * Clients are balanced across all routers
+ * If one AVF fails → AVG assigns its load to remaining AVFs
