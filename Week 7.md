@@ -26,3 +26,22 @@
    * Routers decide who becomes Active (highest priority)
    * Standby router keeps listening
    * If Active router fails → Standby becomes Active instantly
+
+## VRRP (Virtual Router Redundancy Protocol)
+ * VRRP is an open standard redundancy protocol.
+ * It allows different vendor routers (Cisco, Juniper, HP) to work together for gateway backup.
+
+### Basic Points
+  * Open Standard (not Cisco-only)
+  * Works like HSRP but standardized
+  * Has Master and Backup routers
+  * Master holds the virtual IP
+  * Sends advertisements every 1 second
+  * Faster failover than default HSRP timers
+
+### How VRRP works
+ * One router becomes Master (highest priority or owns the virtual IP)
+ * Other routers remain Backup
+ * All clients use one virtual IP
+ * If Master fails → Backup instantly becomes Master
+ * No load balancing by default
