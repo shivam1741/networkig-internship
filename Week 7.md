@@ -27,6 +27,9 @@
    * Standby router keeps listening
    * If Active router fails → Standby becomes Active instantly
 
+### HSRP Diagram
+  ![HSRP](https://github.com/shivam1741/networkig-internship/blob/Assets/ChatGPT%20Image%20Dec%204%2C%202025%2C%2007_59_33%20AM.png)
+
 ## VRRP (Virtual Router Redundancy Protocol)
  * VRRP is an open standard redundancy protocol.
  * It allows different vendor routers (Cisco, Juniper, HP) to work together for gateway backup.
@@ -45,6 +48,9 @@
  * All clients use one virtual IP
  * If Master fails → Backup instantly becomes Master
  * No load balancing by default
+
+ ### VRRP Diagram
+   ![VRRP](https://github.com/shivam1741/networkig-internship/blob/Assets/ChatGPT%20Image%20Dec%204%2C%202025%2C%2007_59_57%20AM.png)
 
 ## GLBP (Gateway Load Balancing Protocol)
  * GLBP is a Cisco protocol that gives you redundancy + load balancing together.
