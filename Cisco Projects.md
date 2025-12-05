@@ -2,6 +2,9 @@
 
 ### Step 1 (Enter Global Configuration Mode)
 
+### Cisco Example
+![Cisco](https://github.com/shivam1741/networkig-internship/blob/Assets/Screenshot%202025-12-05%20080150.png)
+
 
  ```
   enable 
