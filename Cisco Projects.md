@@ -62,4 +62,4 @@
 # Subnetting Cisco project:
 
 ### Cisco example
-![Subnetting]()
+![Subnetting](https://github.com/shivam1741/networkig-internship/blob/Assets/Screenshot%202025-12-05%20081355.png)
