@@ -12,3 +12,6 @@
 
 * In the image we can see clearly 4 packets has been sent successfully to a sever or device whose ip is 8.8.8.8.
 * In the place of IP we can use DNS name (like google.com , cisco.com) too.
+
+### How it works
+ping sends ICMP (Internet Control Message Protocol) Echo Request packets to the target host and waits for Echo Reply packets.
