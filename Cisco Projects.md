@@ -56,3 +56,10 @@
     exit
     ```
   ### ***Note:*** We can use "interface range FastEthernet 0/1-3"command for assigning all ports to particular VLAN instead of "interface fastethernet 0/1" command.
+
+
+
+# Subnetting Cisco project:
+
+### Cisco example
+![Subnetting]()
