@@ -14,7 +14,23 @@
 * In the place of IP we can use DNS name (like google.com , cisco.com) too.
 
 ### How it works
-ping sends ICMP (Internet Control Message Protocol) Echo Request packets to the target host and waits for Echo Reply packets.
+ping sends ICMP (Internet Control Message Protocol) Echo Request packets to the target host and waits for Echo Reply 
+packets.
+
+### When we use ping
+
+| **Use Case**                    | **Why We Use Ping**                    | **Example Command**    | **What You Understand From Result**                    |
+| ------------------------------- | -------------------------------------- | ---------------------- | ------------------------------------------------------ |
+| **Check basic connectivity**    | To see if a device/server is reachable | `ping 192.168.1.1`     | Reply = device UP; No reply = device DOWN/blocked      |
+| **Check internet availability** | To test if internet works              | `ping 8.8.8.8`         | If reply → internet OK; If no reply → ISP/router issue |
+| **Check DNS problem**           | To compare IP vs domain                | `ping google.com`      | IP works but domain fails → DNS issue                  |
+| **Check latency (ms)**          | To test speed/delay                    | `ping 8.8.8.8`         | Higher ms = slow; Lower ms = fast                      |
+| **Check packet loss**           | To find unstable network               | `ping -n 20 8.8.8.8`   | Shows % of lost packets                                |
+| **Check LAN connection**        | To test gateway/local network          | `ping 192.168.0.1`     | If gateway unreachable → LAN issue                     |
+| **Continuous monitoring**       | To check stability over time           | `ping -t 8.8.8.8`      | Shows continuous ping until stopped                    |
+| **Test with large packet size** | To check MTU issues                    | `ping -l 1500 8.8.8.8` | If fails, fragmentation/MTU problem                    |
+| **Check specific timeout**      | To see how quick reply comes           | `ping -w 500 8.8.8.8`  | Fails if reply takes more than 500 ms                  |
+
 
 ### Ping Visual Flow
 ![ping](https://github.com/shivam1741/networkig-internship/blob/Assets/Screenshot%202025-12-06%20071600.png)
