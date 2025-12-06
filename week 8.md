@@ -149,3 +149,63 @@ This way, it discovers each hop one by one.
 * SSH (Secure Shell) is a protocol used to securely access and manage network devices and servers.
 * It is the modern, secure replacement for Telnet.
 
+
+### Why SSH is Secure
+SSH encrypts everything:
+* Username
+* Password
+* Commands
+* Output
+No one can read your traffic, even if they capture it.
+
+### Default SSH Port
+* SSH uses port 22 by default.
+* It ```ssh 192.168.1.1 ``` Automatically means ```ssh 192.168.1.1 22```
+
+### What SSH is Used For
+* Remote login
+* Remote configuration
+* Secure management of routers, switches, servers
+* Secure file transfer (SCP, SFTP)
+
+### SSH vs Telnet
+
+| Feature        | SSH         | Telnet       |
+| -------------- | ----------- | ------------ |
+| Security       | ✔ encrypted | ❌ plain text |
+| Default port   | 22          | 23           |
+| Recommended?   | ✔ Yes       | ❌ No         |
+| Real-world use | Everywhere  | Rare         |
+
+
+### When We Use SSH
+| **Use Case**                         | **Why We Use SSH**                             | **Example Command**              |
+| ------------------------------------ | ---------------------------------------------- | -------------------------------- |
+| **Secure remote access**             | To configure routers, switches, servers safely | `ssh 192.168.1.1`                |
+| **Management in corporate networks** | Required for all production devices            | `ssh user@10.0.0.5`              |
+| **Login to Linux servers**           | Standard method to access Linux                | `ssh ubuntu@192.168.10.10`       |
+| **Encrypted communication**          | Protects credentials and data                  | (automatic)                      |
+| **Remote troubleshooting**           | Ping, logs, config changes via SSH             | `ssh admin@router`               |
+| **Secure file transfer**             | SCP / SFTP works over SSH                      | `scp file.txt user@server:/path` |
+| **Automation tools**                 | Ansible, Python scripts use SSH                | (auto)                           |
+| **Access via specific port**         | When port 22 is changed                        | `ssh -p 2222 192.168.1.5`        |
+
+
+### How to Configure SSH on Cisco Router/Switch
+
+```
+conf t
+hostname <R1>
+ip domain-name <cisco.com>
+crypto key generate rsa
+ip ssh version 2
+username <admin> secret <cisco123>
+line vty 0 4
+transport input ssh
+login local
+ ```
+Now access:
+
+```
+ssh -l admin 192.168.1.1
+```
