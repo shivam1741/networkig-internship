@@ -47,3 +47,30 @@ This way, it discovers each hop one by one.
  * Router overloaded
  * Higher ms → indicates latency
  * Stars (*) means → no ICMP reply
+
+ ### Useful Tracert Options
+ 1. ***Resolve hostnames***
+     ``` tracert -d google.com ```
+    * It is faster.
+    * It shows IP only not DNS lookup
+    
+ 2. ***Increase max hops***
+     ``` tracert -h 50 google.com ```
+    * It increase hops.
+
+  3. ***Set timeout***
+     ``` tracert -w 500 google.com ```
+     * Normally, tracert waits 4000 ms (4 seconds).
+     * That is too long, especially if many hops are slow or non-responsive.
+     * That's why we can use this command to set a timeout.
+
+
+  ### When to use Tracert
+  
+  | Issue               | Why Use Tracert                  |
+| ------------------- | -------------------------------- |
+| Slow internet       | Find which hop has high latency  |
+| Website not opening | Check path break                 |
+| Packet drop         | Identify failing router          |
+| Routing issue       | See actual path vs expected path |
+
