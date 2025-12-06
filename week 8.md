@@ -35,6 +35,12 @@ packets.
 ### Ping Visual Flow
 ![ping](https://github.com/shivam1741/networkig-internship/blob/Assets/Screenshot%202025-12-06%20071600.png)
 
+
+
+
+
+
+
 ## traceroute - Tracing Network Path
 
 ``` tracert ``` (Windows) or ``` traceroute ``` (Linux/Cisco) is a network troubleshooting command that shows the exact path your packet takes from your device to a destination (like google.com).   
@@ -90,3 +96,11 @@ This way, it discovers each hop one by one.
 | Packet drop         | Identify failing router          |
 | Routing issue       | See actual path vs expected path |
 
+
+
+
+
+## telnet - Remote Connection Testing
+* ```telnet``` is a protocol and command-line tool used to establish a connection to a remote host. While it was originally used for remote system administration, today it's primarily used for testing connectivity to specific ports.
+* It checks application-level connectivity, not just IP.
+* ```telnet``` transmits data in plain text, making it insecure for actual remote administration.
