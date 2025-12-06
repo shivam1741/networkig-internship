@@ -121,3 +121,17 @@ This way, it discovers each hop one by one.
 * In Cisco routers and switches, Telnet ALWAYS uses default port 23.
 * So we just use: ```telnet 192.168.1.1 ```
 * Packet Tracer automatically assumes: ``` telnet 192.168.1.1 23 ```
+
+### When We Use Telnet
+
+| **Use Case**                     | **Why We Use Telnet**                                    | **Example Command**         |
+| -------------------------------- | -------------------------------------------------------- | --------------------------- |
+| **Check if a port is open**      | To test whether a service (SSH, HTTP, DB) is reachable   | `telnet 10.0.0.5 22`        |
+| **Check app-level connectivity** | Ping works but application not working                   | `telnet 10.0.0.8 443`       |
+| **Firewall testing**             | To see if firewall/ACL is blocking the port              | `telnet <IP> <port>`        |
+| **Check server listening state** | Confirms if server is running on that port               | `telnet localhost 3306`     |
+| **Troubleshoot website issues**  | HTTP/HTTPS port test                                     | `telnet example.com 80`     |
+| **Check email server**           | Test SMTP manually                                       | `telnet mail.server.com 25` |
+| **Legacy device login**          | Old routers/switches used telnet for access (not secure) | `telnet 192.168.1.1`        |
+| **Check load balancers**         | Confirm VIP port is responding                           | `telnet <VIP> 8080`         |
+
