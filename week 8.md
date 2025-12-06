@@ -17,4 +17,4 @@
 ping sends ICMP (Internet Control Message Protocol) Echo Request packets to the target host and waits for Echo Reply packets.
 
 ### Ping Visual Flow
-![ping]()
+![ping](https://github.com/shivam1741/networkig-internship/blob/Assets/Screenshot%202025-12-06%20071600.png)
