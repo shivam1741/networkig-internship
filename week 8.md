@@ -39,4 +39,11 @@ This way, it discovers each hop one by one.
 ### Basic Command
 
 ``` tracert google.com ```
-![output]()
+
+![output](https://github.com/shivam1741/networkig-internship/blob/Assets/Screenshot%202025-12-06%20074514.png)
+ ***How to understand the image***   
+ * Hop 2 timed out → could be:
+ * Router blocking ICMP
+ * Router overloaded
+ * Higher ms → indicates latency
+ * Stars (*) means → no ICMP reply
