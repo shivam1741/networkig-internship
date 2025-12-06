@@ -104,3 +104,11 @@ This way, it discovers each hop one by one.
 * ```telnet``` is a protocol and command-line tool used to establish a connection to a remote host. While it was originally used for remote system administration, today it's primarily used for testing connectivity to specific ports.
 * It checks application-level connectivity, not just IP.
 * ```telnet``` transmits data in plain text, making it insecure for actual remote administration.
+
+
+### How Telnet Works
+* Telnet tries to create a TCP connection to a specific port.
+* If connection opens → port is reachable
+* If connection fails → port is blocked, service is down, or server unreachable
+ > Ping only checks IP.    
+ > Telnet checks both IP + Port.
