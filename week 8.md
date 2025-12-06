@@ -15,3 +15,6 @@
 
 ### How it works
 ping sends ICMP (Internet Control Message Protocol) Echo Request packets to the target host and waits for Echo Reply packets.
+
+### Ping Visual Flow
+![ping]()
