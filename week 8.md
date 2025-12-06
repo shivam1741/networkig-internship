@@ -135,3 +135,17 @@ This way, it discovers each hop one by one.
 | **Legacy device login**          | Old routers/switches used telnet for access (not secure) | `telnet 192.168.1.1`        |
 | **Check load balancers**         | Confirm VIP port is responding                           | `telnet <VIP> 8080`         |
 
+
+### Notes
+
+* Telnet is NOT secure (plain text passwords)
+* Better to use SSH for actual login
+* In troubleshooting, Telnet is mainly used only to test ports
+
+
+
+## SSH - Secure Remote Access
+* SSH (Secure Shell) is a cryptographic network protocol that provides secure encrypted communication between two systems. It's the modern, secure alternative to telnet for remote system administration.
+* SSH (Secure Shell) is a protocol used to securely access and manage network devices and servers.
+* It is the modern, secure replacement for Telnet.
+
