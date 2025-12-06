@@ -87,3 +87,6 @@
 **VRRP →** Same idea as HSRP but open standard.  
 **GLBP →** All routers share traffic (load balancing).
 
+Day 2 (VPNs and Tunneling Concepts)
+
+
