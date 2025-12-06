@@ -112,3 +112,12 @@ This way, it discovers each hop one by one.
 * If connection fails → port is blocked, service is down, or server unreachable
  > Ping only checks IP.    
  > Telnet checks both IP + Port.
+
+### Basic Command
+* ``` telnet <IP> <port> ```
+* Example: ``` telnet 192.168.1.10 22 ```
+
+### Why we don’t use a port when accessing Telnet in Cisco Packet Tracer
+* In Cisco routers and switches, Telnet ALWAYS uses default port 23.
+* So we just use: ```telnet 192.168.1.1 ```
+* Packet Tracer automatically assumes: ``` telnet 192.168.1.1 23 ```
