@@ -87,7 +87,7 @@
 **VRRP →** Same idea as HSRP but open standard.  
 **GLBP →** All routers share traffic (load balancing).
 
-Day 2 (VPNs and Tunneling Concepts)
+# Day 2 (VPNs and Tunneling Concepts)
 ### What is a VPN?  
 A VPN (Virtual Private Network) is a technology that allows you to create a secure and private connection over the normal internet. 
 > Think of it like:    
@@ -131,139 +131,93 @@ They only see encrypted junk.
 
 ### Important VPN Concepts  
 
- * Encryption   
+ * ***Encryption***   
  Encryption scrambles your data so even if someone catches it, they cannot read it. 
  It uses keys like:   
     * AES-256
     * SSL/TLS
     * IPSec 
 
- * Tunneling 
+ * ***Tunneling***     
  This is the method used to carry your encrypted data safely. 
  Protocols used: 
- * IPSec
- * OpenVPN
- * WireGuard
- * L2TP
- * SSTP
- * Authentication 
+    * IPSec
+    * OpenVPN
+    * WireGuard
+    * L2TP
+    * SSTP
+ * ***Authentication***    
+ VPN checks your identity using: 
+    * Username
+    * Password
+    * OTP
+    * Certificates
+    * MFA (Multi-Factor Authentication) 
 
-* VPN checks your identity using: 
+ * ***IP Address Change***    
+ VPN hides your real IP and gives you a new one. 
 
-Username 
+### Types of VPN  
 
-Password 
-
-OTP 
-
-Certificates 
-
-MFA (Multi-Factor Authentication) 
-
- IP Address Change 
-
-VPN hides your real IP and gives you a new one. 
-
- Types of VPN  
-
-1. Remote Access VPN 
-
-Allows individual users to connect to a private network from remote locations. 
-
-Use Case: Remote employees accessing company resources 
-
-Example: Employee working from home connecting to office network 
+1. ***Remote Access VPN***
+    * Allows individual users to connect to a private network from remote locations.
+    * Use Case: Remote employees accessing company resources
+    * Example: Employee working from home connecting to office network 
 
  
 
-2. Site-to-Site VPN 
-
-Connects entire networks to each other, typically used to link branch offices. 
-
-Use Case: Connecting multiple office locations 
-
-Example: Headquarters connected to regional offices 
+2. ***Site-to-Site VPN*** 
+    * Connects entire networks to each other, typically used to link branch offices.
+    * Use Case: Connecting multiple office locations
+    * Example: Headquarters connected to regional offices 
 
  
 
-3. Client-to-Site VPN (SSL VPN) 
-
-Individual client connects to a specific network or site. 
-
-Use Case: Secure access to corporate applications 
-
-Example: Contractor accessing project management system 
+3. ***Client-to-Site VPN (SSL VPN)*** 
+    * Individual client connects to a specific network or site.
+    * Use Case: Secure access to corporate applications
+    * Example: Contractor accessing project management system 
 
  
 
-4. SSL/TLS VPN 
+4. ***SSL/TLS VPN***
+    * Browser-based VPN using SSL/TLS protocols for encryption.
+    * Use Case: Web-based applications without client software
+    * Example: Accessing webmail through secure browser connection 
 
-Browser-based VPN using SSL/TLS protocols for encryption. 
+ (***What Is SSL Inspection?***    
+ SSL Inspection means the firewall decrypts encrypted traffic, checks it for threats, and then re-encrypts it before sending it to the destination.) 
 
-Use Case: Web-based applications without client software 
+ 
+### VPN Modes: 
 
-Example: Accessing webmail through secure browser connection 
+ * ***Full Tunnel***
+     * All your traffic goes through VPN 
+     * Maximum security 
+     * Slower internet sometimes 
+
+* ***Split Tunnel***
+    * Only specific traffic goes through VPN
+    * Faster internet
+    * Used mostly in corporate 
 
  
 
  
 
-(What Is SSL Inspection? 
-SSL Inspection means the firewall decrypts encrypted traffic, checks it for threats, and then re-encrypts it before sending it to the destination.) 
+### What VPN Hides? 
 
- 
+ * Your browsing data
+ * Your IP address
+ * Your location
+ * Your online activities
+ * What websites you're opening 
 
- 
+### What VPN Cannot Hide? 
 
- 
-
- VPN Modes: 
-
-Full Tunnel vs Split Tunnel 
-
-Full Tunnel 
-
-       All your traffic goes through VPN 
-      ➡ Maximum security 
-      ➡ Slower internet sometimes 
-
-Split Tunnel 
-
-      Only specific traffic goes through VPN 
-      ➡ Faster internet 
-      ➡ Used mostly in corporate 
-
- 
-
- 
-
-What VPN Hides? 
-
-Your browsing data 
-
-Your IP address 
-
-Your location 
-
-Your online activities 
-
-What websites you're opening 
-
- 
-
- 
-
- 
-
-What VPN Cannot Hide? 
-
-VPN cannot hide things from: 
-
-The VPN provider itself 
-
-The website you visit (if you log in) 
-
-Government (if VPN company is forced to share data) 
-
-But ISP cannot see your activities. 
+ * VPN cannot hide things from:
+ * The VPN provider itself
+ * The website you visit (if you log in)
+ * Government (if VPN company is forced to share data)
+ * But ISP cannot see your activities. 
 
