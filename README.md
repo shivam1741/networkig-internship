@@ -29,3 +29,7 @@ During this internship, I gained hands-on experience in:
 * [Week 6](https://github.com/shivam1741/networkig-internship/blob/main/Week%206.md)
 * [Week 7](https://github.com/shivam1741/networkig-internship/blob/main/Week%207.md)
 * [Week 8](https://github.com/shivam1741/networkig-internship/blob/main/week%208.md)
+
+
+## Let's study about the tools that a NOC Enginner uses
+* [Network Monitoring System (NMS)]()
